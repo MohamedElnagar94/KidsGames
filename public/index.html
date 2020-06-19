@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- PLUGINS CSS STYLE -->
+    <link href="<%= BASE_URL %>css/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="<%= BASE_URL %>css/bootstrap.min.css">
+    <link href="<%= BASE_URL %>plugins/jquery-ui/jquery-ui.css" rel="stylesheet">
+    <link href="<%= BASE_URL %>plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="<%= BASE_URL %>plugins/rs-plugin/css/settings.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="<%= BASE_URL %>plugins/selectbox/select_option1.css">
+    <link rel="stylesheet" type="text/css" href="<%= BASE_URL %>plugins/owl-carousel/owl.carousel.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="<%= BASE_URL %>plugins/isotope/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css" href="<%= BASE_URL %>plugins/isotope/isotope.css">
+    <link href="<%= BASE_URL %>fonts/vendor/font-awesome/MISTV___.TTF" />
+    <link href="<%= BASE_URL %>css/generalCssNumbers.css" rel="stylesheet" />
+    <link href="<%= BASE_URL %>css/pencil.css" rel="stylesheet" />
+    <!-- GOOGLE FONT -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dosis:400,300,600,700' rel='stylesheet' type='text/css'>
+
+    <!-- CUSTOM CSS -->
+    <link href="<%= BASE_URL %>css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="<%= BASE_URL %>options/animate.css">
+    <link rel="stylesheet" href="<%= BASE_URL %>options/optionswitch.css">
+    <link rel="stylesheet" href="<%= BASE_URL %>css/default.css" id="option_color">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="<%= BASE_URL %>img/favicon.png">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="body-wrapper">
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <!--=== option Switcher ===-->
+    <i class="option-switcher-btn fa fa-gear hidden-xs"></i>
+    <div class="option-switcher animated">
+      <div class="option-swticher-header">
+        <div class="option-switcher-heading">Template Options</div>
+        <div class="theme-close"><i class="fa fa-close"></i></div>
+      </div>
+      <div class="option-swticher-body">
+        <!-- Theme Colors -->
+        <ul class="list-unstyled color-options">
+          <li class="theme-default theme-active" data-color="default"></li>
+          <li class="theme-color1" data-color="color-option1"></li>
+          <li class="theme-color2" data-color="color-option2"></li>
+          <li class="theme-color3 last" data-color="color-option3"></li>
+        </ul>
+        <!-- Layout Styles -->
+        <div class="row no-col-space layoutStyle">
+          <div class="col-xs-6">
+            <a href="javascript:void(0);" class="btn-u  btn-block active-switcher-btn wide-layout-btn">Wide</a>
+          </div>
+          <div class="col-xs-6">
+            <a href="javascript:void(0);" class="btn-u btn-block boxed-layout-btn">Boxed</a>
+          </div>
+        </div>
+        <!-- Background pattern -->
+        <div class="bg-patern">
+          <h3>Background pattern</h3>
+          <ul class="list-unstyled">
+            <li class="pattern-default pattern-active"></li>
+            <li class="pattern1"></li>
+            <li class="pattern2"></li>
+            <li class="pattern3 last"></li>
+            <li class="pattern4"></li>
+            <li class="pattern5"></li>
+            <li class="pattern6"></li>
+            <li class="pattern7 last"></li>
+          </ul>
+        </div>
+        <!-- Header Styles -->
+        <div class="row no-col-space headerStyle">
+          <div class="col-xs-6">
+            <a href="javascript:void(0);" class="btn-u btn-block active-switcher-btn fixed-header">Fixed header</a>
+          </div>
+          <div class="col-xs-6">
+            <a href="javascript:void(0);" class="btn-u btn-block static-header">Static header</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/option-switcher-->
+    <div class="main-wrapper">
+      <div id="app"></div>
+    </div>
+    <!-- built files will be auto injected -->
+    <div class="scrolling">
+      <a href="#pageTop" class="backToTop hidden-xs" id="backToTop"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    </div>
+
+    <!-- LOGIN MODAL -->
+    <div class="modal fade customModal" id="loginModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="panel panel-default formPanel">
+            <div class="panel-heading bg-color-1 border-color-1">
+              <h3 class="panel-title">Login</h3>
+            </div>
+            <div class="panel-body">
+              <form action="#" method="POST" role="form">
+                <div class="form-group formField">
+                  <input type="text" class="form-control" placeholder="User name">
+                </div>
+                <div class="form-group formField">
+                  <input type="password" class="form-control" placeholder="Password">
+                </div>
+                <div class="form-group formField">
+                  <input type="submit" class="btn btn-primary btn-block bg-color-3 border-color-3" value="Log in">
+                </div>
+                <div class="form-group formField">
+                  <p class="help-block"><a href="#">Forgot password?</a></p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CREATE ACCOUNT MODAL -->
+    <div class="modal fade customModal" id="createAccount" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="panel panel-default formPanel">
+            <div class="panel-heading bg-color-1 border-color-1">
+              <h3 class="panel-title">Create  an account</h3>
+            </div>
+            <div class="panel-body">
+              <form action="#" method="POST" role="form">
+                <div class="form-group formField">
+                  <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="form-group formField">
+                  <input type="text" class="form-control" placeholder="User name">
+                </div>
+                <div class="form-group formField">
+                  <input type="text" class="form-control" placeholder="Phone">
+                </div>
+                <div class="form-group formField">
+                  <input type="password" class="form-control" placeholder="Password">
+                </div>
+                <div class="form-group formField">
+                  <input type="password" class="form-control" placeholder="Re-Password">
+                </div>
+                <div class="form-group formField">
+                  <input type="submit" class="btn btn-primary btn-block bg-color-3 border-color-3" value="Register">
+                </div>
+                <div class="form-group formField">
+                  <p class="help-block">Allready have an account? <a href="#">Log in</a></p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="<%= BASE_URL %>js/jquery.min.js" type="12dcc391edff26dbc2c5b8bb-text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="12dcc391edff26dbc2c5b8bb-text/javascript"></script>
+    <script src="<%= BASE_URL %>plugins/bootstrap/js/bootstrap.min.js" type="12dcc391edff26dbc2c5b8bb-text/javascript"></script>
+<!--    <script src="<%= BASE_URL %>css/dist/js/bootstrap.js" type="12dcc391edff26dbc2c5b8bb-text/javascript"></script>-->
+    <script src="<%= BASE_URL %>plugins/rs-plugin/js/jquery.themepunch.tools.min.js" type="12dcc391edff26dbc2c5b8bb-text/javascript"></script>
+    <script src="<%= BASE_URL %>plugins/rs-plugin/js/jquery.themepunch.revolution.min.js" type="12dcc391edff26dbc2c5b8bb-text/javascript"></script>
+    <script src="<%= BASE_URL %>plugins/selectbox/jquery.selectbox-0.1.3.min.js" type="12dcc391edff26dbc2c5b8bb-text/javascript"></script>
+    <script src="<%= BASE_URL %>plugins/owl-carousel/owl.carousel.js" type="12dcc391edff26dbc2c5b8bb-text/javascript"></script>
+    <script src="<%= BASE_URL %>js/waypoints.min.js" type="12dcc391edff26dbc2c5b8bb-text/javascript"></script>
+    <script src="<%= BASE_URL %>plugins/counter-up/jquery.counterup.min.js" type="12dcc391edff26dbc2c5b8bb-text/javascript"></script>
+    <script src="<%= BASE_URL %>plugins/isotope/isotope.min.js" type="12dcc391edff26dbc2c5b8bb-text/javascript"></script>
+    <script src="<%= BASE_URL %>plugins/isotope/jquery.fancybox.pack.js" type="12dcc391edff26dbc2c5b8bb-text/javascript"></script>
+    <script src="<%= BASE_URL %>plugins/isotope/isotope-triger.js" type="12dcc391edff26dbc2c5b8bb-text/javascript"></script>
+    <script src="<%= BASE_URL %>plugins/countdown/jquery.syotimer.js" type="12dcc391edff26dbc2c5b8bb-text/javascript"></script>
+    <script src="<%= BASE_URL %>plugins/velocity/velocity.min.js" type="12dcc391edff26dbc2c5b8bb-text/javascript"></script>
+    <script src="<%= BASE_URL %>plugins/smoothscroll/SmoothScroll.js" type="12dcc391edff26dbc2c5b8bb-text/javascript"></script>
+    <script src="<%= BASE_URL %>options/optionswitcher.js" type="12dcc391edff26dbc2c5b8bb-text/javascript"></script>
+    <script src="<%= BASE_URL %>js/custom.js" type="12dcc391edff26dbc2c5b8bb-text/javascript"></script>
+    <script src="<%= BASE_URL %>js/rocket-loader.min.js" data-cf-settings="12dcc391edff26dbc2c5b8bb-|49" defer=""></script>
+    <script>
+      // $(document).ready(function() {
+      //   $('[data-toggle="tooltip"]').tooltip();
+      //   $("#backToTop").click();
+      // });
+    </script>
+  </body>
+</html>
