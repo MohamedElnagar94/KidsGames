@@ -27,3 +27,15 @@ export default {
   components: {}
 };
 </script>
+<style scoped>
+.pageTitleSection {
+  background: linear-gradient(
+    90deg,
+    rgba(225, 35, 54, 1) 0%,
+    rgba(34, 72, 149, 1) 25%,
+    rgba(0, 138, 79, 1) 50%,
+    rgba(246, 150, 2, 1) 75%
+  );
+  padding: 45px 0;
+}
+</style>

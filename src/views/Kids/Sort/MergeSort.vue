@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header header="Count Numbers"></Header>
+    <Header header="Merge Sort"></Header>
     <!-- MAIN SECTION -->
     <section class="mainContent full-width clearfix">
       <div class="container">
@@ -9,17 +9,14 @@
             <div class="sectionTitle text-center">
               <h2>
                 <span class="shape shape-left bg-color-4"></span>
-                <span
-                  >Count the shapes and drag the right number to the empty place
-                  below</span
-                >
+                <span>Merge Sort</span>
                 <span class="shape shape-right bg-color-4"></span>
               </h2>
             </div>
           </div>
         </div>
         <div class="row">
-          <Count></Count>
+          <Merge></Merge>
         </div>
       </div>
     </section>
@@ -28,9 +25,9 @@
 
 <script>
 import Header from "@/components/HeaderComponent.vue";
-import Count from "@/components/Numbers/CountNumbers/CountNumbersComponent.vue";
+import Merge from "@/components/Numbers/Sort/MergeSortComponent.vue";
 export default {
-  name: "CountNumbers",
+  name: "MergeSort",
   data() {
     return {
       publicPath: process.env.BASE_URL
@@ -38,7 +35,7 @@ export default {
   },
   components: {
     Header,
-    Count
+    Merge
   }
 };
 </script>

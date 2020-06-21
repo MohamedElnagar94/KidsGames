@@ -107,11 +107,10 @@
               style="font-size: 124px;color: greenyellow;"
             ></i>
           </div>
-          <div
-            class="pt-3 text-center"
-
-          >
-            <p class="text-white" style="font-size: 50px;font-weight: bold;">{{ message }}</p>
+          <div class="pt-3 text-center">
+            <p class="text-white" style="font-size: 50px;font-weight: bold;">
+              {{ message }}
+            </p>
             <img
               v-if="message == 'Well Done'"
               class="img-fluid"
@@ -133,10 +132,15 @@
       <div id="tooltip" class="w-100 pt-5">
         <div class="text-center margin-bottom">
           <RouterLink
-                  to="/levels"
-                  class="d-flex justify-content-center align-items-center w-100"
+            to="/numbersLevels"
+            class="d-flex justify-content-center align-items-center w-100"
           >
-            <b-button v-b-tooltip.hover title="Back To Levels" variant="btn btn-primary">Back To Levels</b-button>
+            <b-button
+              v-b-tooltip.hover
+              title="Back To Levels"
+              variant="btn btn-primary"
+              >Back To Levels</b-button
+            >
           </RouterLink>
         </div>
       </div>
@@ -149,7 +153,7 @@
 </template>
 
 <script>
-  import $ from "jquery/dist/jquery.min";
+import $ from "jquery/dist/jquery.min";
 export default {
   name: "Exam2Component",
   data() {
@@ -248,9 +252,9 @@ export default {
       });
       localStorage.setItem("finalResult", JSON.stringify(this.questions));
       if (this.count === 10) {
-        let levels = JSON.parse(localStorage.getItem("levels"));
-        levels[5].open = true;
-        localStorage.setItem("levels", JSON.stringify(levels));
+        let levels = JSON.parse(localStorage.getItem("numbersLevels"));
+        levels[6].open = true;
+        localStorage.setItem("numbersLevels", JSON.stringify(levels));
       }
     },
     dragStart: function(num) {

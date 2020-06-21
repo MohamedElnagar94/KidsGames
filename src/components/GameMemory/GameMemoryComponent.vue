@@ -34,7 +34,10 @@
       <div class="col-md-4">
         <table width="100%" class="score-board">
           <tr>
-            <td class="text-center btn-social btn-twitter btn-square" width="40%">
+            <td
+              class="text-center btn-social btn-twitter btn-square"
+              width="40%"
+            >
               <span class="bold">Left:</span>
               {{ left }}
             </td>
@@ -55,7 +58,9 @@
             </td>
           </tr>
           <tr>
-            <td class="text-center d-flex justify-content-around align-items-center btn-social btn-pinterest-link">
+            <td
+              class="text-center d-flex justify-content-around align-items-center btn-social btn-pinterest-link"
+            >
               <button class="btn btn-primary my-3 m-0" v-on:click="newGame()">
                 New Game
               </button>
@@ -167,9 +172,9 @@ export default {
     isGameEnd: function() {
       if (this.left === 0) {
         clearInterval(this.loop);
-        let levels = JSON.parse(localStorage.getItem("levels"));
+        let levels = JSON.parse(localStorage.getItem("CardsLevels"));
         levels[4].open = true;
-        localStorage.setItem("levels", JSON.stringify(levels));
+        localStorage.setItem("CardsLevels", JSON.stringify(levels));
         // const returnedValue = confirm(text);
         // if (returnedValue === true) this.newGame();
       }

@@ -4,7 +4,7 @@
   </div>
 </template>
 <script>
-  import $ from "jquery/dist/jquery.min";
+import $ from "jquery/dist/jquery.min";
 export default {
   props: ["id"],
   methods: {
@@ -109,6 +109,4 @@ export default {
 };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header header="Count Numbers"></Header>
+    <Header header="Categories"></Header>
     <!-- MAIN SECTION -->
     <section class="mainContent full-width clearfix">
       <div class="container">
@@ -9,17 +9,14 @@
             <div class="sectionTitle text-center">
               <h2>
                 <span class="shape shape-left bg-color-4"></span>
-                <span
-                  >Count the shapes and drag the right number to the empty place
-                  below</span
-                >
+                <span></span>
                 <span class="shape shape-right bg-color-4"></span>
               </h2>
             </div>
           </div>
         </div>
         <div class="row">
-          <Count></Count>
+          <Categories></Categories>
         </div>
       </div>
     </section>
@@ -28,9 +25,9 @@
 
 <script>
 import Header from "@/components/HeaderComponent.vue";
-import Count from "@/components/Numbers/CountNumbers/CountNumbersComponent.vue";
+import Categories from "@/components/CategoriesComponent.vue";
 export default {
-  name: "CountNumbers",
+  name: "CategoriesCollection",
   data() {
     return {
       publicPath: process.env.BASE_URL
@@ -38,7 +35,7 @@ export default {
   },
   components: {
     Header,
-    Count
+    Categories
   }
 };
 </script>

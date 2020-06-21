@@ -2,8 +2,8 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+import { BootstrapVue, IconsPlugin } from "bootstrap-vue";
+import "bootstrap-vue/dist/bootstrap-vue.css";
 // import $ from "jquery";
 // import jQuery from 'jquery/dist/jquery.min'
 // window.$ = window.jQuery = require('jquery');
@@ -17,7 +17,6 @@ Vue.use(IconsPlugin);
 //     Vue.prototype.$ = require('jquery/dist/jquery.min'); // you'll have this.$jQuery anywhere in your vue project
 //   }
 // });
-
 
 // global.jQuery = require('jquery');
 // let $ = global.jQuery;

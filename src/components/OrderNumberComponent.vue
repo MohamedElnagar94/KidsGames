@@ -71,14 +71,24 @@
     </div>
     <div id="tooltip" class="w-100 pt-5">
       <p class="space-bottom d-flex justify-content-center align-items-center">
-        <b-button @click="forceRerender()" v-if="correctNumber == 10" v-b-tooltip.hover title="Play Again" variant="btn btn-success">
+        <b-button
+          @click="forceRerender()"
+          v-if="correctNumber == 10"
+          v-b-tooltip.hover
+          title="Play Again"
+          variant="btn btn-success"
+        >
           <i class="fa fa-repeat" style="font-size: 25px;padding: 0 35px;"></i>
         </b-button>
-        <RouterLink
-                to="/collections"
-                class=""
-        >
-          <b-button v-b-tooltip.hover :title="correctNumber !== 10 ? 'Back To Collection' : 'Next Level'" variant="btn btn-primary">{{correctNumber !== 10 ? 'Back To Collection' : 'Next Level'}}</b-button>
+        <RouterLink to="/numbersLevels" class="">
+          <b-button
+            v-b-tooltip.hover
+            :title="correctNumber !== 10 ? 'Back To Collection' : 'Next Level'"
+            variant="btn btn-primary"
+            >{{
+              correctNumber !== 10 ? "Back To Collection" : "Next Level"
+            }}</b-button
+          >
         </RouterLink>
       </p>
     </div>
@@ -150,9 +160,9 @@ export default {
         console.log(false);
       }
       if (this.correctNumber == 10) {
-        let levels = JSON.parse(localStorage.getItem("levels"));
-        levels[3].open = true;
-        localStorage.setItem("levels", JSON.stringify(levels));
+        let levels = JSON.parse(localStorage.getItem("numbersLevels"));
+        levels[5].open = true;
+        localStorage.setItem("numbersLevels", JSON.stringify(levels));
       }
     },
     forceRerender: function() {

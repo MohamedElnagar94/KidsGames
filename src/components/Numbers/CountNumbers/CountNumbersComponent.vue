@@ -86,15 +86,28 @@
         </div>
       </div>
       <div id="tooltip" class="w-100">
-        <p class="space-bottom d-flex justify-content-center align-items-center">
-          <b-button v-if="count == 4" @click.prevent="playAgain()" v-b-tooltip.hover title="Play Again" variant="btn btn-success">
-            <i class="fa fa-repeat" style="font-size: 25px;padding: 0 35px;"></i>
-          </b-button>
-          <RouterLink
-                  to="/levels"
-                  class=""
+        <p
+          class="space-bottom d-flex justify-content-center align-items-center"
+        >
+          <b-button
+            v-if="count == 4"
+            @click.prevent="playAgain()"
+            v-b-tooltip.hover
+            title="Play Again"
+            variant="btn btn-success"
           >
-            <b-button v-b-tooltip.hover :title="count !== 4 ? 'Back To Levels' : 'Next Level'" variant="btn btn-primary">{{count !== 4 ? 'Back To Levels' : 'Next Level'}}</b-button>
+            <i
+              class="fa fa-repeat"
+              style="font-size: 25px;padding: 0 35px;"
+            ></i>
+          </b-button>
+          <RouterLink to="/numbersLevels" class="">
+            <b-button
+              v-b-tooltip.hover
+              :title="count !== 4 ? 'Back To Levels' : 'Next Level'"
+              variant="btn btn-primary"
+              >{{ count !== 4 ? "Back To Levels" : "Next Level" }}</b-button
+            >
           </RouterLink>
         </p>
       </div>
@@ -195,9 +208,9 @@ export default {
         this.count++;
       }
       if (this.count == 4) {
-        let levels = JSON.parse(localStorage.getItem("levels"));
+        let levels = JSON.parse(localStorage.getItem("numbersLevels"));
         levels[2].open = true;
-        localStorage.setItem("levels", JSON.stringify(levels));
+        localStorage.setItem("numbersLevels", JSON.stringify(levels));
       }
     }
   },

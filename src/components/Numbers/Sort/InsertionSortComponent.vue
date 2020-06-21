@@ -132,11 +132,27 @@
           </div>
         </div>
       </div>
+      <div id="tooltip" class="w-100 pt-5">
+        <div class="text-center margin-bottom">
+          <RouterLink
+            to="/sortsLevels"
+            class="d-flex justify-content-center align-items-center w-100"
+          >
+            <b-button
+              v-b-tooltip.hover
+              title="Back To Sort Levels"
+              variant="btn btn-primary"
+              >Back To Levels</b-button
+            >
+          </RouterLink>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+// import $ from "jquery/dist/jquery.min";
 export default {
   name: "InsertionSortComponent",
   data() {
@@ -150,8 +166,12 @@ export default {
   },
 
   methods: {
-    generateArray: function(start, end, step) {
-      let array = _.range(start, end, step);
+    // generateArray: function(start, end, step) {
+    generateArray: function() {
+      // var _ = [];
+      // let array = _.range(start, end, step);
+      let array = [1, 2, 3, 4, 5, 6, 7];
+      console.log(array);
       let currentIndex = array.length,
         temporaryValue,
         randomIndex;
@@ -181,6 +201,9 @@ export default {
         if (this.pivot === 6) {
           console.log("sorted");
           this.pivot = this.pivot - 1;
+          let levels = JSON.parse(localStorage.getItem("sortLevels"));
+          levels[3].open = true;
+          localStorage.setItem("sortLevels", JSON.stringify(levels));
         }
       }
     },
@@ -213,7 +236,7 @@ export default {
   },
 
   created() {
-    this.numbers = this.generateArray(1, 8, 1);
+    this.numbers = this.generateArray();
   }
 };
 </script>

@@ -13,25 +13,42 @@
         <div class="lineResult"></div>
         <img style="height: 120px" src="/storage/Images/10.png" alt="" />
       </div>
-      <div
-        class="col-md-12 d-flex justify-content-center align-items-center"
-
-      >
-        <p class="font-weight-bold" style="font-size: 90px;color: orange;">{{ checkAppreciation }}</p>
+      <div class="col-md-12 d-flex justify-content-center align-items-center">
+        <p class="font-weight-bold" style="font-size: 90px;color: orange;">
+          {{ checkAppreciation }}
+        </p>
       </div>
       <div id="tooltip" class="w-100 pt-5">
-        <p class="space-bottom d-flex justify-content-center align-items-center">
-          <RouterLink
-                  :to="finalResult[0].location"
-                  class=""
-          >
-            <b-button v-b-tooltip.hover title="Try Again" variant="btn btn-primary">Try Again</b-button>
+        <p
+          class="space-bottom d-flex justify-content-center align-items-center"
+        >
+          <RouterLink :to="finalResult[0].location" class="">
+            <b-button
+              v-b-tooltip.hover
+              title="Try Again"
+              variant="btn btn-primary"
+              >Try Again</b-button
+            >
+          </RouterLink>
+          <RouterLink :to="finalResult[0].location" class="">
+            <b-button
+              v-b-tooltip.hover
+              title="Back to numbers levels"
+              variant="btn btn-primary"
+              >Back to numbers levels</b-button
+            >
           </RouterLink>
           <RouterLink
-                  to="/levels"
-                  class=""
+            :to="'/categories'"
+            v-if="finalResult[0].location == '/numbersExam'"
+            class=""
           >
-            <b-button v-b-tooltip.hover title="Next Level" variant="btn btn-primary">Next Level</b-button>
+            <b-button
+              v-b-tooltip.hover
+              title="Back to Categories"
+              variant="btn btn-primary"
+              >Categories</b-button
+            >
           </RouterLink>
         </p>
       </div>
@@ -51,7 +68,7 @@ export default {
   created() {
     this.finalResult = JSON.parse(localStorage.getItem("finalResult"));
     if (this.finalResult.length === 0) {
-      window.location.href = "/levels";
+      window.location.href = "/numbersLevels";
     } else {
       this.showResult = true;
     }
@@ -71,8 +88,8 @@ export default {
         return "Medium";
       } else if (this.checkNumber < 5) {
         return "Bad Work Try Again";
-      }else {
-        return this.checkNumber
+      } else {
+        return this.checkNumber;
       }
     }
   }

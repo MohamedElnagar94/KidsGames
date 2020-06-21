@@ -3,7 +3,7 @@
     <img :src="src" class="vloume" @click="play()" alt />
     <div class="row" v-for="obj in stepsArrayObject" :key="obj">
       <div
-        class="col-md-8 d-flex justify-content-center align-items-center p-4 mt-3"
+        class="col-md-12 d-flex justify-content-center align-items-center p-4 mt-3"
         style=" background-color: rgba(188, 239, 252, 0.829);"
       >
         <div>
@@ -23,12 +23,12 @@
           </div>
         </div>
       </div>
-      <div
+      <!-- <div
         class="col-md-4 d-flex justify-content-center align-items-center"
         style="text-align:center;"
       >
         <img style="height:130px" :src="'/storage/Images/good.jpg'" alt />
-      </div>
+      </div> -->
     </div>
 
     <div class="row" :style="[start == end ? { display: 'none' } : '']">
@@ -153,17 +153,29 @@
     <audio id="WrongElm" src="/storage/Sound/Wrong-answer.mp3"></audio>
     <audio id="applausElm" src="/storage/Sound/congrats-applaus.mp3"></audio>
     <audio id="fireworkElm" src="/storage/Sound/firework.mp3"></audio>
-
+    <div id="tooltip" class="w-100 pt-5">
+      <div class="text-center margin-bottom">
+        <RouterLink
+          to="/sortsLevels"
+          class="d-flex justify-content-center align-items-center w-100"
+        >
+          <b-button
+            v-b-tooltip.hover
+            title="Back To Sort Levels"
+            variant="btn btn-primary"
+            >Back To Levels</b-button
+          >
+        </RouterLink>
+      </div>
+    </div>
     <!--  audio -->
   </div>
 </template>
 
 <script>
+import $ from "jquery/dist/jquery.min";
 export default {
   name: "BubleSortComponent",
-  data() {
-    return {};
-  },
   data() {
     return {
       numbersArr: [1, 2, 3, 4, 5],
@@ -178,7 +190,7 @@ export default {
   },
 
   methods: {
-    play: function(event) {
+    play: function() {
       var a = this.$refs.audioElm;
       if (a.paused) {
         a.play();
@@ -216,10 +228,10 @@ export default {
       if (correctAnswer === answer) {
         $("#character")[0].src = "/storage/Images/good.gif";
         $("#question")[0].innerText = "Thats correct, GOOD JOB";
-        var txt = $("#question")[0].innerText;
+        var txt1 = $("#question")[0].innerText;
 
         $("#correctElm")[0].play();
-        this.speake(txt);
+        this.speake(txt1);
 
         setTimeout(() => {
           $("#explain").hide();
@@ -228,11 +240,11 @@ export default {
       } else {
         $("#character")[0].src = "/storage/Images/wrong.gif";
         $("#question")[0].innerText = "No Thats Wrong, Try Again ";
-        var txt = $("#question")[0].innerText;
+        var txt2 = $("#question")[0].innerText;
 
         $("#WrongElm")[0].play();
         setTimeout(() => {
-          this.speake(txt);
+          this.speake(txt2);
         }, 1100);
       }
     },
@@ -270,9 +282,11 @@ export default {
 
       $("#congrats").show();
       $("#fireworkElm")[0].play();
+      let levels = JSON.parse(localStorage.getItem("sortLevels"));
+      levels[2].open = true;
+      localStorage.setItem("sortLevels", JSON.stringify(levels));
     }
   },
-  computed: {},
   created() {
     var array = [1, 2, 3, 4, 5, 6];
     var newarr = array.slice();
@@ -323,7 +337,7 @@ export default {
   height: 100%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background-color: rgba(1, 1, 22, 0.959);
+  background-color: rgba(1, 1, 22, 0.986);
   color: white;
   display: none;
   padding-top: 30px;

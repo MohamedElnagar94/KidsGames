@@ -9,7 +9,9 @@
             <div class="sectionTitle text-center">
               <h2>
                 <span class="shape shape-left bg-color-4"></span>
-                <span>This collection helps you to learn how to count numbers</span>
+                <span
+                  >This collection helps you to learn how to count numbers</span
+                >
                 <span class="shape shape-right bg-color-4"></span>
               </h2>
             </div>

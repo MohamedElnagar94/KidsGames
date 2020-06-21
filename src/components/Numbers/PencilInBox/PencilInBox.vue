@@ -9,9 +9,14 @@
       <h3>seconds</h3>
     </div>
     <div class="row">
-      <RouterLink class="nextButton" id="nextLevel" style="display:none;" href="/collections">
+      <!-- <RouterLink
+        class="nextButton"
+        id="nextLevel"
+        style="display:none;"
+        href="/collections"
+      >
         Next Level
-      </RouterLink>
+      </RouterLink> -->
       <!--<button class="nextButton" id="nextLevel"  v-on:click="newGame" > New Game </button>-->
     </div>
 
@@ -131,6 +136,9 @@ export default {
         this.testSeconds = 0;
         this.clearSetInterval();
       }
+      let levels = JSON.parse(localStorage.getItem("numbersLevels"));
+      levels[3].open = true;
+      localStorage.setItem("numbersLevels", JSON.stringify(levels));
     }
   },
   components: {
@@ -149,6 +157,4 @@ export default {
 };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

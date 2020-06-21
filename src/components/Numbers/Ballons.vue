@@ -8,18 +8,22 @@
         <span id="timerPencil" v-text="testSeconds"> </span>
         <h3>seconds</h3>
       </div>
-      <div class="col-md-12 d-flex justify-content-center align-items-center p-4">
+      <div
+        class="col-md-12 d-flex justify-content-center align-items-center p-4"
+      >
         <h1>Question : {{ count }}</h1>
       </div>
 
       <div
-              class="col-md-12 position-relative d-flex align-items-center"
-              style="justify-content: space-evenly;padding: 30px"
+        class="col-md-12 position-relative d-flex align-items-center"
+        style="justify-content: space-evenly;padding: 30px"
       >
         <button
-                class="btn btn-primary btn-lg"
-                id="mp3"
-                v-on:click="playSound(newArray[Math.floor(Math.random() * newArray.length)])"
+          class="btn btn-primary btn-lg"
+          id="mp3"
+          v-on:click="
+            playSound(newArray[Math.floor(Math.random() * newArray.length)])
+          "
         >
           <i class="fa fa-play"></i>
         </button>
@@ -29,13 +33,15 @@
       </div>
 
       <br />
-      <div class="col-md-12 d-flex justify-content-center align-items-center p-4">
+      <div
+        class="col-md-12 d-flex justify-content-center align-items-center p-4"
+      >
         <div
-                class="m-4 balloon"
-                v-for="(result, index) in newArray"
-                v-on:click="clickedBallon($event)"
-                :key="index"
-                style="cursor: pointer"
+          class="m-4 balloon"
+          v-for="(result, index) in newArray"
+          v-on:click="clickedBallon($event)"
+          :key="index"
+          style="cursor: pointer"
         >
           <span>{{ result }}</span>
         </div>
@@ -44,10 +50,15 @@
     <div id="tooltip" class="w-100 pt-5">
       <div class="text-center margin-bottom">
         <RouterLink
-                to="/collections"
-                class="d-flex justify-content-center align-items-center w-100"
+          to="/numbersLevels"
+          class="d-flex justify-content-center align-items-center w-100"
         >
-          <b-button v-b-tooltip.hover title="Back To Collection" variant="btn btn-primary">Back To Collection</b-button>
+          <b-button
+            v-b-tooltip.hover
+            title="Back To Collection"
+            variant="btn btn-primary"
+            >Back To Collection</b-button
+          >
         </RouterLink>
       </div>
     </div>
@@ -79,7 +90,7 @@ export default {
       this.clearSetInterval();
       var audio = new Audio(`/storage/sounds/numbers/${sound}.mp3`);
       audio.play();
-      if(!isNaN(sound)){
+      if (!isNaN(sound)) {
         this.answerNum = sound;
       }
       this.timeDisplay();
@@ -172,6 +183,9 @@ export default {
           this.showResult = false;
           this.resetGame();
         }
+        let levels = JSON.parse(localStorage.getItem("numbersLevels"));
+        levels[4].open = true;
+        localStorage.setItem("numbersLevels", JSON.stringify(levels));
       }
     }
   },
@@ -183,194 +197,189 @@ export default {
 </script>
 
 <style scoped>
-    .container-fluid {
-        background-image: url(/img/drawings.png);
-    }
+.container-fluid {
+  background-image: url(/img/drawings.png);
+}
 
-    .row h2 {
-        margin-left: 20%;
-        margin-top: .5em;
-        /* font-family:Kristen ITC; */
-        /* font-family:'Comic Sans MS'; */
-        font-family: Jokerman, 'Comic Sans MS';
-        font-size: 500%;
-        color: #fff;
-        -webkit-text-stroke: .04em rgb(23, 125, 193);
-    }
+.row h2 {
+  margin-left: 20%;
+  margin-top: 0.5em;
+  /* font-family:Kristen ITC; */
+  /* font-family:'Comic Sans MS'; */
+  font-family: Jokerman, "Comic Sans MS";
+  font-size: 500%;
+  color: #fff;
+  -webkit-text-stroke: 0.04em rgb(23, 125, 193);
+}
 
-    .containers {
-        width: 80%;
-        /* background-color: rgb(23,125,193); */
-        margin: 1em auto;
-        height: 49em;
-        background-color: rgb(212, 240, 245);
+.containers {
+  width: 80%;
+  /* background-color: rgb(23,125,193); */
+  margin: 1em auto;
+  height: 49em;
+  background-color: rgb(212, 240, 245);
+}
 
-    }
+#gameControlls {
+  height: 5em;
+  width: 100%;
+  margin: 0em auto;
+  background-color: rgb(120, 173, 191);
+  border-top-left-radius: 0.6em;
+  border-top-right-radius: 0.6em;
+}
 
-    #gameControlls {
-        height: 5em;
-        width: 100%;
-        margin: 0em auto;
-        background-color: rgb(120, 173, 191);
-        border-top-left-radius: .6em;
-        border-top-right-radius: .6em;
+#gameControlls h4,
+#gameControlls span,
+#gameControlls h3 {
+  color: white;
+  font-family: "Comic Sans MS";
+  font-size: xx-large;
+  width: 25%;
+  margin-top: 0.5em;
+  margin-left: 0.3em;
+  display: inline-block;
+}
 
-    }
+#gameControlls h3,
+#gameControlls span {
+  font-size: x-large;
+  width: 13%;
+  margin-left: 0.1em;
+  margin-right: 0.2em;
+}
 
-    #gameControlls h4, #gameControlls span, #gameControlls h3 {
-        color: white;
-        font-family: 'Comic Sans MS';
-        font-size: xx-large;
-        width: 25%;
-        margin-top: .5em;
-        margin-left: .3em;
-        display: inline-block;
-    }
+@font-face {
+  font-family: "MisterVampire";
+  src: url("/fonts/vendor/font-awesome/MISTV___.TTF");
+}
 
-    #gameControlls h3, #gameControlls span {
-        font-size: x-large;
-        width: 13%;
-        margin-left: .1em;
-        margin-right: .2em;
-    }
+.balloon {
+  display: inline-block;
+  width: 120px;
+  height: 145px;
+  background: hsl(215, 50%, 65%);
+  border-radius: 80%;
+  position: relative;
+  box-shadow: inset -10px -10px 0 rgba(0, 0, 0, 0.07);
+  margin: 20px 30px;
+  transition: transform 0.5s ease;
+  z-index: 10;
+  animation: balloons 4s ease-in-out infinite;
+  transform-origin: bottom center;
+  font-size: xx-large;
+}
 
-    @font-face {
-        font-family: "MisterVampire";
-        src: url("/fonts/vendor/font-awesome/MISTV___.TTF");
+.balloon span {
+  font-size: 120%;
+  font-family: "Comic Sans MS";
+  margin: 1.3em 1.5em;
+  display: block;
+  color: white;
+}
 
-    }
+@keyframes balloons {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-4deg);
+  }
+  50% {
+    transform: translateY(-25px) rotate(4deg);
+  }
+}
 
+.balloon:before {
+  content: "▲";
+  font-size: 20px;
+  color: hsl(215, 30%, 50%);
+  display: block;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: -12px;
+  z-index: -100;
+}
 
-    .balloon {
-        display: inline-block;
-        width: 120px;
-        height: 145px;
-        background: hsl(215, 50%, 65%);
-        border-radius: 80%;
-        position: relative;
-        box-shadow: inset -10px -10px 0 rgba(0, 0, 0, 0.07);
-        margin: 20px 30px;
-        transition: transform 0.5s ease;
-        z-index: 10;
-        animation: balloons 4s ease-in-out infinite;
-        transform-origin: bottom center;
-        font-size: xx-large;
+.balloon:after {
+  display: inline-block;
+  top: 4.5em;
+  position: absolute;
+  height: 6em;
+  width: 2px;
+  /*margin: 0 1.6em;*/
+  content: "";
+  background: rgba(0, 0, 0, 0.2);
+}
 
-    }
+.balloon:nth-child(1) {
+  background: hsl(245, 100%, 65%);
+  animation-duration: 3.5s;
+}
 
-    .balloon span {
-        font-size: 120%;
-        font-family: 'Comic Sans MS';
-        margin: 1.3em 1.5em;
-        display: block;
-        color: white;
-    }
+.balloon:nth-child(1):before {
+  color: hsl(245, 100%, 65%);
+}
 
-    @keyframes balloons {
-        0%, 100% {
-            transform: translateY(0) rotate(-4deg);
-        }
-        50% {
-            transform: translateY(-25px) rotate(4deg);
-        }
-    }
+.balloon:nth-child(2) {
+  background: hsl(130, 100%, 60%);
+  animation-duration: 3s;
+}
 
+.balloon:nth-child(2):before {
+  color: hsl(139, 100%, 50%);
+}
 
-    .balloon:before {
-        content: "▲";
-        font-size: 20px;
-        color: hsl(215, 30%, 50%);
-        display: block;
-        text-align: center;
-        width: 100%;
-        position: absolute;
-        bottom: -12px;
-        z-index: -100;
-    }
+.balloon:nth-child(3) {
+  background: hsl(0, 100%, 59%);
+  animation-duration: 5s;
+}
 
-    .balloon:after {
-        display: inline-block;
-        top: 4.5em;
-        position: absolute;
-        height: 6em;
-        width: 2px;
-        /*margin: 0 1.6em;*/
-        content: "";
-        background: rgba(0, 0, 0, 0.2);
-    }
+.balloon:nth-child(3):before {
+  color: hsl(0, 100%, 50%);
+}
 
-    .balloon:nth-child(1) {
-        background: hsl(245, 100%, 65%);
-        animation-duration: 3.5s;
-    }
+.balloon:nth-child(4) {
+  background: hsl(53, 100%, 58%);
+  animation-duration: 4.5s;
+}
 
-    .balloon:nth-child(1):before {
-        color: hsl(245, 100%, 65%);
-    }
+.balloon:nth-child(4):before {
+  color: hsl(59, 100%, 52%);
+}
 
-    .balloon:nth-child(2) {
-        background: hsl(130, 100%, 60%);
-        animation-duration: 3s;
-    }
+.balloon:nth-child(5) {
+  background: hsl(23, 100%, 57%);
+  animation-duration: 5s;
+}
 
-    .balloon:nth-child(2):before {
-        color: hsl(139, 100%, 50%);
-    }
+.balloon:nth-child(5):before {
+  color: hsl(23, 100%, 46%);
+}
 
+@keyframes example {
+  from {
+    height: 6.5em;
+  }
+  to {
+    height: 0px;
+  }
+}
 
-    .balloon:nth-child(3) {
-        background: hsl(0, 100%, 59%);
-        animation-duration: 5s;
-    }
+.hideBalloon {
+  animation-name: example;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
 
-    .balloon:nth-child(3):before {
-        color: hsl(0, 100%, 50%);
-    }
+@media only screen and (max-width: 800px) {
+  h2 {
+    font-size: 250%;
+  }
+}
 
-    .balloon:nth-child(4) {
-        background: hsl(53, 100%, 58%);
-        animation-duration: 4.5s;
-    }
-
-    .balloon:nth-child(4):before {
-        color: hsl(59, 100%, 52%);
-    }
-
-    .balloon:nth-child(5) {
-        background: hsl(23, 100%, 57%);
-        animation-duration: 5s;
-    }
-
-    .balloon:nth-child(5):before {
-        color: hsl(23, 100%, 46%);
-    }
-
-    @keyframes example {
-        from {
-            height: 6.5em;
-        }
-        to {
-            height: 0px;
-        }
-    }
-
-    .hideBalloon {
-        animation-name: example;
-        animation-duration: 2s;
-        animation-fill-mode: forwards;
-    }
-
-    @media only screen and (max-width: 800px ) {
-
-        h2 {
-            font-size: 250%;
-        }
-    }
-
-    @media only screen and (max-width: 1000px ) {
-
-        h2 {
-            font-size: 350%;
-        }
-    }
+@media only screen and (max-width: 1000px) {
+  h2 {
+    font-size: 350%;
+  }
+}
 </style>

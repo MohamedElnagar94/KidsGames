@@ -25,122 +25,117 @@ const routes = [
   {
     path: "/levels",
     name: "Levels",
-    component: () =>
-      import(
-        "../views/Kids/Levels.vue"
-      )
+    component: () => import("../views/Kids/Levels.vue")
+  },
+  {
+    path: "/numbersLevels",
+    name: "NumbersLevels",
+    component: () => import("../views/Kids/NumbersLevels.vue")
+  },
+  {
+    path: "/cardsLevels",
+    name: "CardsLevels",
+    component: () => import("../views/Kids/CardsLevels.vue")
+  },
+  {
+    path: "/sortsLevels",
+    name: "SortsLevels",
+    component: () => import("../views/Kids/SortsLevels.vue")
+  },
+  {
+    path: "/categories",
+    name: "CategoriesCollection",
+    component: () => import("../views/Kids/Categories.vue")
   },
   {
     path: "/numbers",
     name: "LearnNumbers",
-    component: () =>
-      import(
-        "../views/Kids/Numbers/LearnNumbers.vue"
-      )
+    component: () => import("../views/Kids/Numbers/LearnNumbers.vue")
   },
   {
     path: "/count",
     name: "CountNumbers",
-    component: () =>
-      import(
-        "../views/Kids/Numbers/CountNumbers.vue"
-      )
+    component: () => import("../views/Kids/Numbers/CountNumbers.vue")
   },
   {
     path: "/collections",
     name: "Level3Collection",
-    component: () =>
-      import(
-        "../views/Kids/Level3Collection.vue"
-      )
+    component: () => import("../views/Kids/Level3Collection.vue")
   },
   {
     path: "/pencilInBox",
     name: "PencilsInBox",
-    component: () =>
-      import(
-        "../views/Kids/Numbers/PencilsInBox.vue"
-      )
+    component: () => import("../views/Kids/Numbers/PencilsInBox.vue")
   },
   {
     path: "/order",
     name: "OrderNumbers",
-    component: () =>
-      import(
-        "../views/Kids/Numbers/OrderNumbers.vue"
-      )
+    component: () => import("../views/Kids/Numbers/OrderNumbers.vue")
   },
   {
     path: "/ballons",
     name: "Balloons",
-    component: () =>
-      import(
-        "../views/Kids/Numbers/Balloons.vue"
-      )
+    component: () => import("../views/Kids/Numbers/Balloons.vue")
   },
   {
     path: "/cardsCollections",
     name: "CardsCollection",
-    component: () =>
-      import(
-         "../views/Kids/CardsCollection.vue"
-      )
+    component: () => import("../views/Kids/CardsCollection.vue")
   },
   {
     path: "/cards-2-2",
     name: "Card2-2",
-    component: () =>
-      import(
-        "../views/Kids/Cards/Card2-2.vue"
-      )
+    component: () => import("../views/Kids/Cards/Card2-2.vue")
   },
   {
     path: "/cards-2-3",
     name: "Card2-3",
-    component: () =>
-      import(
-        "../views/Kids/Cards/Card2-3.vue"
-      )
+    component: () => import("../views/Kids/Cards/Card2-3.vue")
   },
   {
     path: "/cards-3-4",
     name: "Card3-4",
-    component: () =>
-      import(
-        "../views/Kids/Cards/Card3-4.vue"
-      )
+    component: () => import("../views/Kids/Cards/Card3-4.vue")
   },
   {
     path: "/cards-4-4",
     name: "Card4-4",
-    component: () =>
-      import(
-        "../views/Kids/Cards/Card4-4.vue"
-      )
+    component: () => import("../views/Kids/Cards/Card4-4.vue")
   },
   {
     path: "/Exam2",
     name: "Exam1",
-    component: () =>
-      import(
-        "../views/Kids/Practice/Exam1.vue"
-      )
+    component: () => import("../views/Kids/Practice/Exam1.vue")
   },
   {
     path: "/Result",
     name: "Results",
-    component: () =>
-      import(
-        "../views/Kids/Practice/Results.vue"
-      )
+    component: () => import("../views/Kids/Practice/Results.vue")
   },
   {
     path: "/numbersExam",
     name: "Exam2",
-    component: () =>
-      import(
-        "../views/Kids/Practice/Exam2.vue"
-      )
+    component: () => import("../views/Kids/Practice/Exam2.vue")
+  },
+  {
+    path: "/mergesort",
+    name: "MergeSort",
+    component: () => import("../views/Kids/Sort/MergeSort.vue")
+  },
+  {
+    path: "/bubblesort",
+    name: "BubbleSort",
+    component: () => import("../views/Kids/Sort/BubbleSort.vue")
+  },
+  {
+    path: "/insertionsort",
+    name: "InsertionSort",
+    component: () => import("../views/Kids/Sort/InsertionSort.vue")
+  },
+  {
+    path: "/binarySearch",
+    name: "BinarySearch",
+    component: () => import("../views/Kids/Sort/BinarySearch.vue")
   }
 ];
 
