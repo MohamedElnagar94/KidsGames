@@ -83,10 +83,12 @@
         <RouterLink to="/numbersLevels" class="">
           <b-button
             v-b-tooltip.hover
-            :title="correctNumber !== 10 ? 'Back To Collection' : 'Next Level'"
+            :title="
+              correctNumber !== 10 ? 'Back To Numbers Levels' : 'Next Level'
+            "
             variant="btn btn-primary"
             >{{
-              correctNumber !== 10 ? "Back To Collection" : "Next Level"
+              correctNumber !== 10 ? "Back To Numbers Levels" : "Next Level"
             }}</b-button
           >
         </RouterLink>

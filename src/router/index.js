@@ -23,6 +23,28 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/About.vue")
   },
   {
+    path: "/team",
+    name: "Team",
+    component: () => import(/* webpackChunkName: "about" */ "../views/Team.vue")
+  },
+  {
+    path: "/photoGallery",
+    name: "PhotoGallery",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/PhotoGallery.vue")
+  },
+  {
+    path: "/contactus",
+    name: "ContactUs",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/ContactUs.vue")
+  },
+  {
+    path: "/404",
+    name: "ErrorPage",
+    component: () => import(/* webpackChunkName: "about" */ "../views/404.vue")
+  },
+  {
     path: "/levels",
     name: "Levels",
     component: () => import("../views/Kids/Levels.vue")
@@ -136,6 +158,11 @@ const routes = [
     path: "/binarySearch",
     name: "BinarySearch",
     component: () => import("../views/Kids/Sort/BinarySearch.vue")
+  },
+  {
+    path: "/maze",
+    name: "MazeRunner",
+    component: () => import("../views/Kids/MazeRunner/MazeRunner.vue")
   }
 ];
 

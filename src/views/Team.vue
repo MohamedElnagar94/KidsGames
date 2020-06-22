@@ -1,0 +1,227 @@
+<template>
+  <section>
+    <Header header="Developer Team"></Header>
+    <!-- WHITE SECTION -->
+    <section class="whiteSection full-width clearfix">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="sectionTitle text-center">
+              <h2>
+                <span class="shape shape-left bg-color-4"></span>
+                <span>Our Teacher 3</span>
+                <span class="shape shape-right bg-color-4"></span>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row text-left">
+          <div class="col-sm-6 col-xs-12">
+            <div class="media teamStyle">
+              <a class="media-left" href="#">
+                <img
+                  class="img-rounded img-responsive"
+                  src="img/home/team/team-1.jpg"
+                  alt="Image"
+                />
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="#">Amanda Stone</a></h4>
+                <h5>English Teacher</h5>
+                <p>
+                  They must explain to you how all this mistaken idea of
+                  denouncing pleasure and praising pain was born and I will give
+                  you.
+                </p>
+                <ul class="list-inline">
+                  <li>
+                    <a href="#" class="bg-color-1"
+                      ><i class="fa fa-facebook" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="bg-color-2"
+                      ><i class="fa fa-twitter" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="bg-color-3"
+                      ><i class="fa fa-google-plus" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="bg-color-4"
+                      ><i class="fa fa-pinterest-p" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="bg-color-5"
+                      ><i class="fa fa-vimeo" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xs-12">
+            <div class="media teamStyle">
+              <a class="media-left" href="#">
+                <img
+                  class="img-rounded img-responsive"
+                  src="img/home/team/team-2.jpg"
+                  alt="Image"
+                />
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="#">Amanda Stone</a></h4>
+                <h5>English Teacher</h5>
+                <p>
+                  They must explain to you how all this mistaken idea of
+                  denouncing pleasure and praising pain was born and I will give
+                  you.
+                </p>
+                <ul class="list-inline">
+                  <li>
+                    <a href="#" class="bg-color-1"
+                      ><i class="fa fa-facebook" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="bg-color-2"
+                      ><i class="fa fa-twitter" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="bg-color-3"
+                      ><i class="fa fa-google-plus" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="bg-color-4"
+                      ><i class="fa fa-pinterest-p" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="bg-color-5"
+                      ><i class="fa fa-vimeo" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xs-12">
+            <div class="media teamStyle">
+              <a class="media-left" href="#">
+                <img
+                  class="img-rounded img-responsive"
+                  src="img/home/team/team-3.jpg"
+                  alt="Image"
+                />
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="#">Amanda Stone</a></h4>
+                <h5>English Teacher</h5>
+                <p>
+                  They must explain to you how all this mistaken idea of
+                  denouncing pleasure and praising pain was born and I will give
+                  you.
+                </p>
+                <ul class="list-inline">
+                  <li>
+                    <a href="#" class="bg-color-1"
+                      ><i class="fa fa-facebook" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="bg-color-2"
+                      ><i class="fa fa-twitter" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="bg-color-3"
+                      ><i class="fa fa-google-plus" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="bg-color-4"
+                      ><i class="fa fa-pinterest-p" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="bg-color-5"
+                      ><i class="fa fa-vimeo" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xs-12">
+            <div class="media teamStyle">
+              <a class="media-left" href="#">
+                <img
+                  class="img-rounded img-responsive"
+                  src="img/home/team/team-4.jpg"
+                  alt="Image"
+                />
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="#">Amanda Stone</a></h4>
+                <h5>English Teacher</h5>
+                <p>
+                  They must explain to you how all this mistaken idea of
+                  denouncing pleasure and praising pain was born and I will give
+                  you.
+                </p>
+                <ul class="list-inline">
+                  <li>
+                    <a href="#" class="bg-color-1"
+                      ><i class="fa fa-facebook" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="bg-color-2"
+                      ><i class="fa fa-twitter" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="bg-color-3"
+                      ><i class="fa fa-google-plus" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="bg-color-4"
+                      ><i class="fa fa-pinterest-p" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="bg-color-5"
+                      ><i class="fa fa-vimeo" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+</template>
+
+<script>
+// @ is an alias to /src
+import Header from "@/components/HeaderComponent.vue";
+export default {
+  name: "Team",
+  data() {
+    return {
+      publicPath: process.env.BASE_URL
+    };
+  },
+  components: {
+    Header
+  }
+};
+</script>

@@ -31,31 +31,31 @@
             <div class="footerInfo">
               <ul class="list-unstyled footerList">
                 <li>
-                  <a href="index.html">
+                  <a href="/">
                     <i class="fa fa-angle-double-right" aria-hidden="true"></i
                     >Kidz School
                   </a>
                 </li>
                 <li>
-                  <a href="about_us.html">
+                  <a href="/about">
                     <i class="fa fa-angle-double-right" aria-hidden="true"></i
                     >About Kidz School
                   </a>
                 </li>
                 <li>
-                  <a href="index-v2.html">
+                  <a href="/categories">
                     <i class="fa fa-angle-double-right" aria-hidden="true"></i
-                    >Kidz Store
+                    >Categories
                   </a>
                 </li>
                 <li>
-                  <a href="index-v3.html">
+                  <a href="/contactus">
                     <i class="fa fa-angle-double-right" aria-hidden="true"></i
-                    >Kidz Daycare
+                    >Contact Us
                   </a>
                 </li>
                 <li>
-                  <a href="photo-gallery.html">
+                  <a href="/photoGallery">
                     <i class="fa fa-angle-double-right" aria-hidden="true"></i>
                     Photo Gallery
                   </a>
