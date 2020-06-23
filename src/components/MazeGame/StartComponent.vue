@@ -190,11 +190,15 @@ export default {
           console.log(e.key);
           return false;
         }
+        
       }
     }
   },
   created() {
     this.newMaze();
+    let levels = JSON.parse(localStorage.getItem("CardsLevels"));
+    levels[5].open = true;
+    localStorage.setItem("CardsLevels", JSON.stringify(levels));
   },
   mounted() {
     window.addEventListener("keydown", e => {

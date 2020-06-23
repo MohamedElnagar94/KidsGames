@@ -28,15 +28,15 @@
             </div>
           </div>
         </div>
-        <div id="tooltip" class="w-100">
+        <div id="tooltip" class="w-100 pt-5">
           <div class="text-center margin-bottom">
             <RouterLink
-              to="/levels"
+              to="/cardsLevels"
               class="d-flex justify-content-center align-items-center w-100"
             >
               <b-button
                 v-b-tooltip.hover
-                title="Back To Levels"
+                title="Back To Entertainment Levels"
                 variant="btn btn-primary"
                 >Back To Levels</b-button
               >
@@ -59,15 +59,15 @@ export default {
     };
   },
   created() {
-    let checkCollections = JSON.parse(localStorage.getItem("CardsCollections"));
+    let checkCollections = JSON.parse(localStorage.getItem("Puzzle1Collections"));
     if (checkCollections === null) {
       let allData = [
         {
           level: 1,
           open: true,
-          href: "/cards-2-2",
+          href: "/puzzle",
           img: "card2-2.png",
-          title: "2 * 2",
+          title: "Puzzle Level 1",
           textColor: "color-1",
           border: "border-color-1",
           description:
@@ -76,41 +76,19 @@ export default {
         {
           level: 2,
           open: true,
-          href: "/cards-2-3",
+          href: "/puzzle2",
           img: "card2-3.png",
-          title: "3 * 2",
+          title: "Puzzle Level 2",
           textColor: "color-2",
           border: "border-color-2",
           description:
             "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. "
-        },
-        {
-          level: 3,
-          open: true,
-          href: "/cards-3-4",
-          img: "card4-3.png",
-          title: "3 * 4",
-          textColor: "color-3",
-          border: "border-color-3",
-          description:
-            "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. "
-        },
-        {
-          level: 4,
-          open: true,
-          href: "/cards-4-4",
-          img: "card4-4.png",
-          title: "4 * 4",
-          textColor: "color-4",
-          border: "border-color-4",
-          description:
-            "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. "
         }
       ];
-      localStorage.setItem("CardsCollections", JSON.stringify(allData));
-      this.allData = JSON.parse(localStorage.getItem("CardsCollections"));
+      localStorage.setItem("Puzzle1Collections", JSON.stringify(allData));
+      this.allData = JSON.parse(localStorage.getItem("Puzzle1Collections"));
     } else {
-      this.allData = JSON.parse(localStorage.getItem("CardsCollections"));
+      this.allData = JSON.parse(localStorage.getItem("Puzzle1Collections"));
     }
   }
 };
@@ -128,7 +106,7 @@ export default {
     animation-duration: 4s; */
 }
 @keyframes moveimage {
-  0% {
+  /* 0% {
     top: 0px;
   }
   50% {
@@ -139,6 +117,6 @@ export default {
   }
   100% {
     top: 0px;
-  }
+  } */
 }
 </style>

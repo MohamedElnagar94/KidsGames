@@ -25,29 +25,19 @@ const routes = [
   {
     path: "/team",
     name: "Team",
-    component: () => import(/* webpackChunkName: "about" */ "../views/Team.vue")
+    component: () => import("../views/Team.vue")
   },
   {
     path: "/photoGallery",
     name: "PhotoGallery",
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/PhotoGallery.vue")
+      import("../views/PhotoGallery.vue")
   },
   {
     path: "/contactus",
     name: "ContactUs",
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/ContactUs.vue")
-  },
-  {
-    path: "/404",
-    name: "ErrorPage",
-    component: () => import(/* webpackChunkName: "about" */ "../views/404.vue")
-  },
-  {
-    path: "/levels",
-    name: "Levels",
-    component: () => import("../views/Kids/Levels.vue")
+      import("../views/ContactUs.vue")
   },
   {
     path: "/numbersLevels",
@@ -80,9 +70,9 @@ const routes = [
     component: () => import("../views/Kids/Numbers/CountNumbers.vue")
   },
   {
-    path: "/collections",
-    name: "Level3Collection",
-    component: () => import("../views/Kids/Level3Collection.vue")
+    path: "/puzzle2collections",
+    name: "Puzzle2Collections",
+    component: () => import("../views/Kids/Puzzle2Collection.vue")
   },
   {
     path: "/pencilInBox",
@@ -100,9 +90,9 @@ const routes = [
     component: () => import("../views/Kids/Numbers/Balloons.vue")
   },
   {
-    path: "/cardsCollections",
-    name: "CardsCollection",
-    component: () => import("../views/Kids/CardsCollection.vue")
+    path: "/puzzle1Collections",
+    name: "Puzzle1Collection",
+    component: () => import("../views/Kids/Puzzle1Collection.vue")
   },
   {
     path: "/cards-2-2",
@@ -163,6 +153,31 @@ const routes = [
     path: "/maze",
     name: "MazeRunner",
     component: () => import("../views/Kids/MazeRunner/MazeRunner.vue")
+  },
+  {
+    path: "/puzzle",
+    name: "Puzzle1-4",
+    component: () => import("../views/Kids/Puzzles/Puzzle1-4.vue")
+  },
+  {
+    path: "/puzzle2",
+    name: "Puzzle2-3",
+    component: () => import("../views/Kids/Puzzles/Puzzle2-3.vue")
+  },
+  {
+    path: "/puzzle3",
+    name: "Puzzle2-4",
+    component: () => import("../views/Kids/Puzzles/Puzzle2-4.vue")
+  },
+  {
+    path: "/puzzle4",
+    name: "Puzzle2-5",
+    component: () => import("../views/Kids/Puzzles/Puzzle2-5.vue")
+  },
+  {
+    path: "/404",
+    name: "ErrorPage",
+    component: () => import("../views/404.vue")
   }
 ];
 

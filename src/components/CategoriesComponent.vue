@@ -61,7 +61,7 @@ export default {
           open: true,
           href: "/cardsLevels",
           img: "card2-3.png",
-          title: "Cards",
+          title: "Entertainment",
           bgColor: "bg-color-2",
           border: "border-color-2",
           description:

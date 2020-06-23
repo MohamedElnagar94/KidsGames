@@ -28,15 +28,15 @@
             </div>
           </div>
         </div>
-        <div id="tooltip" class="w-100">
+        <div id="tooltip" class="w-100 pt-5">
           <div class="text-center margin-bottom">
             <RouterLink
-              to="/levels"
+              to="/cardsLevels"
               class="d-flex justify-content-center align-items-center w-100"
             >
               <b-button
                 v-b-tooltip.hover
-                title="Back To Levels"
+                title="Back To Entertainment Levels"
                 variant="btn btn-primary"
                 >Back To Levels</b-button
               >
@@ -60,16 +60,16 @@ export default {
   },
   created() {
     let checkCollections = JSON.parse(
-      localStorage.getItem("level3Collections")
+      localStorage.getItem("puzzle2Collections")
     );
     if (checkCollections === null) {
       let allData = [
         {
           level: 1,
           open: true,
-          href: "/pencilInBox",
+          href: "/puzzle3",
           img: "pencilInBox.png",
-          title: "Pencils in box",
+          title: "Puzzle Level 3",
           textColor: "color-1",
           border: "border-color-1",
           description:
@@ -78,30 +78,19 @@ export default {
         {
           level: 2,
           open: true,
-          href: "/order",
+          href: "/puzzle4",
           img: "order.png",
-          title: "Sort numbers",
+          title: "Puzzle Level 4",
           textColor: "color-2",
           border: "border-color-2",
           description:
             "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. "
-        },
-        {
-          level: 3,
-          open: true,
-          href: "/ballons",
-          img: "ballons.png",
-          title: "Ballons",
-          textColor: "color-3",
-          border: "border-color-3",
-          description:
-            "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. "
         }
       ];
-      localStorage.setItem("level3Collections", JSON.stringify(allData));
-      this.allData = JSON.parse(localStorage.getItem("level3Collections"));
+      localStorage.setItem("puzzle2Collections", JSON.stringify(allData));
+      this.allData = JSON.parse(localStorage.getItem("puzzle2Collections"));
     } else {
-      this.allData = JSON.parse(localStorage.getItem("level3Collections"));
+      this.allData = JSON.parse(localStorage.getItem("puzzle2Collections"));
     }
   }
 };
@@ -111,14 +100,4 @@ export default {
 .move {
   position: relative;
 }
-.move img:hover {
-  /*position: absolute;*/
-  /*animation: moveimage 1s infinite linear alternate*/
-}
-/*@keyframes moveimage {*/
-/*  0%  {top: 0;}*/
-/*  50%  {top: 20px;}*/
-/*  50% {top: -10px;}*/
-/*  100% {top: 0;}*/
-/*}*/
 </style>
