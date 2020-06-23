@@ -213,7 +213,12 @@ export default {
   },
   created() {
     this.newMaze();
+
     this.preventscroll();
+
+    let levels = JSON.parse(localStorage.getItem("CardsLevels"));
+    levels[5].open = true;
+    localStorage.setItem("CardsLevels", JSON.stringify(levels));
   },
   mounted() {
     window.addEventListener("keydown", e => {

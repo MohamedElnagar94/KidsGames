@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header header="Cards Collection"></Header>
+    <Header header="Puzzle"></Header>
     <!-- MAIN SECTION -->
     <section class="mainContent full-width clearfix">
       <div class="container">
@@ -9,17 +9,29 @@
             <div class="sectionTitle text-center">
               <h2>
                 <span class="shape shape-left bg-color-4"></span>
-                <span
-                  >This collection helps you to learn how to memories between
-                  photos</span
-                >
+                <span></span>
                 <span class="shape shape-right bg-color-4"></span>
               </h2>
             </div>
           </div>
         </div>
         <div class="row">
-          <Cards></Cards>
+          <Puzzle></Puzzle>
+        </div>
+        <div id="tooltip" class="w-100 pt-5">
+          <div class="text-center margin-bottom">
+            <RouterLink
+              to="/puzzle2Collections"
+              class="d-flex justify-content-center align-items-center w-100"
+            >
+              <b-button
+                v-b-tooltip.hover
+                title="Back To Puzzle Collection Level 2"
+                variant="btn btn-primary"
+                >Back To Collection</b-button
+              >
+            </RouterLink>
+          </div>
         </div>
       </div>
     </section>
@@ -28,9 +40,9 @@
 
 <script>
 import Header from "@/components/HeaderComponent.vue";
-import Cards from "@/components/CardsCollectionComponent.vue";
+import Puzzle from "@/components/puzzle/Puzzle3.vue";
 export default {
-  name: "CardsCollection",
+  name: "Puzzle2-4",
   data() {
     return {
       publicPath: process.env.BASE_URL
@@ -38,7 +50,7 @@ export default {
   },
   components: {
     Header,
-    Cards
+    Puzzle
   }
 };
 </script>

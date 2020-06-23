@@ -2,7 +2,7 @@
   <!-- MAIN SECTION -->
   <section class="mainContent full-width clearfix coursesSection">
     <div class="container">
-      <div class="row">
+      <div class="row text-center">
         <div
           v-for="data in allData"
           :key="data.level"
@@ -28,15 +28,15 @@
             </div>
           </div>
         </div>
-        <div id="tooltip" class="w-100">
+        <div id="tooltip" class="w-100 pt-5">
           <div class="text-center margin-bottom">
             <RouterLink
-              to="/levels"
+              to="/cardsLevels"
               class="d-flex justify-content-center align-items-center w-100"
             >
               <b-button
                 v-b-tooltip.hover
-                title="Back To Levels"
+                title="Back To Entertainment Levels"
                 variant="btn btn-primary"
                 >Back To Levels</b-button
               >
@@ -60,16 +60,16 @@ export default {
   },
   created() {
     let checkCollections = JSON.parse(
-      localStorage.getItem("level3Collections")
+      localStorage.getItem("Puzzle1Collections")
     );
     if (checkCollections === null) {
       let allData = [
         {
           level: 1,
           open: true,
-          href: "/pencilInBox",
-          img: "pencilInBox.png",
-          title: "Pencils in box",
+          href: "/puzzle",
+          img: "card2-2.png",
+          title: "Puzzle Level 1",
           textColor: "color-1",
           border: "border-color-1",
           description:
@@ -78,30 +78,19 @@ export default {
         {
           level: 2,
           open: true,
-          href: "/order",
-          img: "order.png",
-          title: "Sort numbers",
+          href: "/puzzle2",
+          img: "card2-3.png",
+          title: "Puzzle Level 2",
           textColor: "color-2",
           border: "border-color-2",
           description:
             "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. "
-        },
-        {
-          level: 3,
-          open: true,
-          href: "/ballons",
-          img: "ballons.png",
-          title: "Ballons",
-          textColor: "color-3",
-          border: "border-color-3",
-          description:
-            "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. "
         }
       ];
-      localStorage.setItem("level3Collections", JSON.stringify(allData));
-      this.allData = JSON.parse(localStorage.getItem("level3Collections"));
+      localStorage.setItem("Puzzle1Collections", JSON.stringify(allData));
+      this.allData = JSON.parse(localStorage.getItem("Puzzle1Collections"));
     } else {
-      this.allData = JSON.parse(localStorage.getItem("level3Collections"));
+      this.allData = JSON.parse(localStorage.getItem("Puzzle1Collections"));
     }
   }
 };
@@ -112,13 +101,24 @@ export default {
   position: relative;
 }
 .move img:hover {
-  /*position: absolute;*/
-  /*animation: moveimage 1s infinite linear alternate*/
+  position: absolute;
+  /* transition: 1s infinite linear; */
+  animation: moveimage 1s infinite linear alternate;
+  /* animation-name: moveimage;
+    animation-duration: 4s; */
 }
-/*@keyframes moveimage {*/
-/*  0%  {top: 0;}*/
-/*  50%  {top: 20px;}*/
-/*  50% {top: -10px;}*/
-/*  100% {top: 0;}*/
-/*}*/
+@keyframes moveimage {
+  /* 0% {
+    top: 0px;
+  }
+  50% {
+    top: 20px;
+  }
+  50% {
+    top: -10px;
+  }
+  100% {
+    top: 0px;
+  } */
+}
 </style>
