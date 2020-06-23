@@ -7,7 +7,7 @@
         <div class="row">
           <div class="col-sm-6 col-sm-push-6 col-xs-12">
             <img
-              src="img/about_us/main.jpg"
+              src="img/about_us/main1.jpg"
               alt="image"
               class="img-responsive img-rounded"
             />
@@ -16,30 +16,31 @@
             <div class="schoolInfo">
               <h2>Wellcome to kidz school</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nos trud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                The education your child receives will set the groundwork for
+                future successes. No matter his age -- from kindergarten to high
+                school -- we have all the advice and information you need on
+                reaching potential in reading, writing, math, and more.
               </p>
               <p class="color-3">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum
+                As your child advances in number learning, you can improve his
+                mathematical skills with at-home practice. These free printable
+                addition worksheets are best suited for children in first
+                through third grades.
               </p>
               <ul class="list-unstyled para-list">
                 <li>
-                  <i class="fa fa-check" aria-hidden="true"></i> Vestibulum
-                  iaculis quam ac libero volutpat placerat.
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                  10 Fun Math Activities for Kindergarteners
                 </li>
                 <li>
-                  <i class="fa fa-check" aria-hidden="true"></i> Phasellus sit
-                  amet risus fringilla, aliquet lacus vel, suscipit lorem.
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                  Guide for Kids' Education
                 </li>
                 <li>
-                  <i class="fa fa-check" aria-hidden="true"></i> Etiam suscipit
-                  velit et tellus bibendum interdum.
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                  Age-by-Age Guide to Reading to Your Baby
                 </li>
               </ul>
-              <a href="about_us.html" class="btn btn-primary">read more</a>
             </div>
           </div>
         </div>
@@ -66,7 +67,7 @@
                 <i class="fa fa-cutlery bg-color-4" aria-hidden="true"></i>
               </a>
               <div class="media-body">
-                <h3 class="media-heading">Delicious Food</h3>
+                <h3 class="media-heading">Training</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt.
@@ -144,7 +145,7 @@
     </section>
 
     <!-- COLOR SECTION -->
-    <section class="colorSection full-width clearfix bg-color-5 teamSection">
+    <!-- <section class="colorSection full-width clearfix bg-color-5 teamSection">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
@@ -476,7 +477,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
   </section>
 </template>
 

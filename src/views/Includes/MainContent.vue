@@ -4,7 +4,7 @@
     <div class="sectionLinkArea hidden-xs scrolling">
       <div class="container">
         <div class="row">
-          <div class="col-sm-3">
+          <div class="col-sm-4">
             <a
               href="#ourCourses"
               class="sectionLink bg-color-1"
@@ -18,17 +18,8 @@
               <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
             </a>
           </div>
-          <div class="col-sm-3">
-            <a href="#ourTeam" class="sectionLink bg-color-2" id="teamLink">
-              <i
-                class="fa fa-calendar-o linkIcon border-color-2"
-                aria-hidden="true"
-              ></i>
-              <span class="linkText">Teachers</span>
-              <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
-            </a>
-          </div>
-          <div class="col-sm-3">
+
+          <div class="col-sm-4">
             <a
               href="#ourGallery"
               class="sectionLink bg-color-3"
@@ -42,13 +33,13 @@
               <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
             </a>
           </div>
-          <div class="col-sm-3">
+          <div class="col-sm-4">
             <a href="#latestNews" class="sectionLink bg-color-4" id="newsLink">
               <i
                 class="fa fa-files-o linkIcon border-color-4"
                 aria-hidden="true"
               ></i>
-              <span class="linkText">News</span>
+              <span class="linkText">Latest Games</span>
               <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
             </a>
           </div>

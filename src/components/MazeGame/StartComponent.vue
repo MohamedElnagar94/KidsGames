@@ -11,11 +11,11 @@
         v-if="level == 8"
       />
 
-      <!-- <i
+      <i
         class="material-icons hamburger cursor-pointer"
         @click="menuOpen = true"
         >menu</i
-      > -->
+      >
     </div>
     <div class="flex-1 flex flex-col h-full">
       <Maze v-if="maze" :maze="maze" class="flex-1" ref="maze" @win="win" />
@@ -23,10 +23,12 @@
         <div
           class="flex flex-col justify-center items-center h-full winMessage"
         >
-          <p class="text-4xl font-semibold mb-1 bold">
+          <p class="text-4xl font-semibold mb-1 bold colorwhite">
             {{ getCongratulation() }}
           </p>
-          <p class="text-6xl bold">Next level in {{ intermission }}</p>
+          <p class="text-6xl bold colorwhite">
+            Next level in {{ intermission }}
+          </p>
         </div>
       </div>
     </div>
@@ -34,7 +36,7 @@
       <button
         class="btn btn-primary mt-3 playAgain"
         @click="forceRerender($event)"
-        v-if="level == 8"
+        v-if="level == 7"
       >
         Play Again
       </button>
@@ -120,6 +122,7 @@ export default {
     onKeyDown(e) {
       if (this.$refs.maze && !this.intermission && !this.menuOpen)
         this.$refs.maze.onKeyDown(e);
+      // this.noScroll();
       if (e.key === "ArrowUp" || e.key === "ArrowDown") {
         e.stopPropagation();
         e.preventDefault();
@@ -174,9 +177,24 @@ export default {
       }
       this.offline = true;
     },
+    preventscroll(e) {
+      if (e.key === "ArrowUp" || e.key === "ArrowDown") {
+        e.stopPropagation();
+        e.preventDefault();
+        console.log(e.key);
+        return false;
+      }
+    },
+    noScroll() {
+      var x = window.scrollX;
+      var y = window.scrollY;
+      window.onscroll = function() {
+        window.scrollTo(x, y);
+      };
+      console.log("no scroll aash");
+    },
     forceRerender: function(e) {
-      if (this.level == 8) {
-        // this.newMaze()
+      if (this.level == 7) {
         this.error = null;
         this.maze = null;
         this.level = 1;
@@ -195,6 +213,7 @@ export default {
   },
   created() {
     this.newMaze();
+    this.preventscroll();
   },
   mounted() {
     window.addEventListener("keydown", e => {
@@ -256,7 +275,7 @@ export default {
 }
 .winMessage {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 45%;
 }
 .bold {
@@ -287,5 +306,8 @@ export default {
   top: 22%;
   left: 43px;
   cursor: pointer;
+}
+.colorwhite {
+  color: white;
 }
 </style>
