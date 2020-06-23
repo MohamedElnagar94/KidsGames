@@ -4,44 +4,41 @@
     <div class="sectionLinkArea hidden-xs scrolling">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4">
-            <a
-              href="#ourCourses"
-              class="sectionLink bg-color-1"
-              id="coursesLink"
-            >
-              <i
-                class="fa fa-file-text-o linkIcon border-color-1"
-                aria-hidden="true"
-              ></i>
-              <span class="linkText">Courses</span>
-              <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
-            </a>
-          </div>
-
-          <div class="col-sm-4">
-            <a
-              href="#ourGallery"
-              class="sectionLink bg-color-3"
-              id="galleryLink"
-            >
-              <i
-                class="fa fa-picture-o linkIcon border-color-3"
-                aria-hidden="true"
-              ></i>
-              <span class="linkText">Gallery</span>
-              <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <a href="#latestNews" class="sectionLink bg-color-4" id="newsLink">
-              <i
-                class="fa fa-files-o linkIcon border-color-4"
-                aria-hidden="true"
-              ></i>
-              <span class="linkText">Latest Games</span>
-              <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
-            </a>
+          <div class="col-md-8 offset-2">
+            <div class="col-sm-6">
+              <a
+                href="#ourGallery"
+                class="sectionLink bg-color-3"
+                id="galleryLink"
+              >
+                <i
+                  class="fa fa-picture-o linkIcon border-color-3"
+                  aria-hidden="true"
+                ></i>
+                <span class="linkText">Gallery</span>
+                <i
+                  class="fa fa-chevron-down locateArrow"
+                  aria-hidden="true"
+                ></i>
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <a
+                href="#latestNews"
+                class="sectionLink bg-color-4"
+                id="newsLink"
+              >
+                <i
+                  class="fa fa-files-o linkIcon border-color-4"
+                  aria-hidden="true"
+                ></i>
+                <span class="linkText">Latest Games</span>
+                <i
+                  class="fa fa-chevron-down locateArrow"
+                  aria-hidden="true"
+                ></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>

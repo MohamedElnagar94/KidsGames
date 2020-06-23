@@ -41,6 +41,7 @@
 <script>
 import Header from "@/components/HeaderComponent.vue";
 import Maze from "@/components/MazeGame/StartComponent.vue";
+
 export default {
   name: "MazeRunner",
   data() {

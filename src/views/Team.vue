@@ -28,35 +28,16 @@
               <div class="media-body">
                 <h4 class="media-heading"><a href="#">Mohamed Elnagar</a></h4>
                 <h5>Fullstack Developer</h5>
-                <p>
-                  They must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising pain was born and I will give
-                  you.
-                </p>
+
                 <ul class="list-inline">
                   <li>
-                    <a href="#" class="bg-color-1"
+                    <a href="#" class="bg-color-1 facebook"
                       ><i class="fa fa-facebook" aria-hidden="true"></i
                     ></a>
                   </li>
                   <li>
                     <a href="#" class="bg-color-2"
                       ><i class="fa fa-twitter" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-3"
-                      ><i class="fa fa-google-plus" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-4"
-                      ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-5"
-                      ><i class="fa fa-vimeo" aria-hidden="true"></i
                     ></a>
                   </li>
                 </ul>
@@ -75,35 +56,16 @@
               <div class="media-body">
                 <h4 class="media-heading"><a href="#">Eslam Taher</a></h4>
                 <h5>Fullstack Developer</h5>
-                <p>
-                  They must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising pain was born and I will give
-                  you.
-                </p>
+
                 <ul class="list-inline">
                   <li>
-                    <a href="#" class="bg-color-1"
+                    <a href="#" class="bg-color-1 facebook "
                       ><i class="fa fa-facebook" aria-hidden="true"></i
                     ></a>
                   </li>
                   <li>
                     <a href="#" class="bg-color-2"
                       ><i class="fa fa-twitter" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-3"
-                      ><i class="fa fa-google-plus" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-4"
-                      ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-5"
-                      ><i class="fa fa-vimeo" aria-hidden="true"></i
                     ></a>
                   </li>
                 </ul>
@@ -122,35 +84,16 @@
               <div class="media-body">
                 <h4 class="media-heading"><a href="#">Ashraf Amer </a></h4>
                 <h5>Fullstack Developer</h5>
-                <p>
-                  They must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising pain was born and I will give
-                  you.
-                </p>
+
                 <ul class="list-inline">
                   <li>
-                    <a href="#" class="bg-color-1"
+                    <a href="#" class="bg-color-1 facebook "
                       ><i class="fa fa-facebook" aria-hidden="true"></i
                     ></a>
                   </li>
                   <li>
                     <a href="#" class="bg-color-2"
                       ><i class="fa fa-twitter" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-3"
-                      ><i class="fa fa-google-plus" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-4"
-                      ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-5"
-                      ><i class="fa fa-vimeo" aria-hidden="true"></i
                     ></a>
                   </li>
                 </ul>
@@ -169,35 +112,16 @@
               <div class="media-body">
                 <h4 class="media-heading"><a href="#">Mohamed Farag</a></h4>
                 <h5>Fullstack Developer</h5>
-                <p>
-                  They must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising pain was born and I will give
-                  you.
-                </p>
+
                 <ul class="list-inline">
                   <li>
-                    <a href="#" class="bg-color-1"
+                    <a href="#" class="bg-color-1 facebook "
                       ><i class="fa fa-facebook" aria-hidden="true"></i
                     ></a>
                   </li>
                   <li>
                     <a href="#" class="bg-color-2"
                       ><i class="fa fa-twitter" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-3"
-                      ><i class="fa fa-google-plus" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-4"
-                      ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-5"
-                      ><i class="fa fa-vimeo" aria-hidden="true"></i
                     ></a>
                   </li>
                 </ul>
@@ -216,35 +140,16 @@
               <div class="media-body">
                 <h4 class="media-heading"><a href="#">Bannan Emad</a></h4>
                 <h5>Fullstack Developer</h5>
-                <p>
-                  They must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising pain was born and I will give
-                  you.
-                </p>
+
                 <ul class="list-inline">
                   <li>
-                    <a href="#" class="bg-color-1"
+                    <a href="#" class="bg-color-1 facebook "
                       ><i class="fa fa-facebook" aria-hidden="true"></i
                     ></a>
                   </li>
                   <li>
                     <a href="#" class="bg-color-2"
                       ><i class="fa fa-twitter" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-3"
-                      ><i class="fa fa-google-plus" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-4"
-                      ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-5"
-                      ><i class="fa fa-vimeo" aria-hidden="true"></i
                     ></a>
                   </li>
                 </ul>
@@ -263,35 +168,16 @@
               <div class="media-body">
                 <h4 class="media-heading"><a href="#">Maryam Gowifel</a></h4>
                 <h5>Fullstack Developer</h5>
-                <p>
-                  They must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising pain was born and I will give
-                  you.
-                </p>
+
                 <ul class="list-inline">
                   <li>
-                    <a href="#" class="bg-color-1"
+                    <a href="#" class="bg-color-1 facebook "
                       ><i class="fa fa-facebook" aria-hidden="true"></i
                     ></a>
                   </li>
                   <li>
                     <a href="#" class="bg-color-2"
                       ><i class="fa fa-twitter" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-3"
-                      ><i class="fa fa-google-plus" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-4"
-                      ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-5"
-                      ><i class="fa fa-vimeo" aria-hidden="true"></i
                     ></a>
                   </li>
                 </ul>
@@ -323,5 +209,8 @@ export default {
 <style scoped>
 .t6 {
   height: 118px;
+}
+.bg-color-1 {
+  background-color: rgb(69, 69, 209) !important;
 }
 </style>

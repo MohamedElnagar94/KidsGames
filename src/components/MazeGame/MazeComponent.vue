@@ -129,9 +129,6 @@ export default {
         case "ArrowUp":
           if (!this.isWall(this.player.x, this.player.y - 1)) this.player.y--;
           this.isBoyleft = false;
-          e.stopPropagation();
-          e.preventDefault();
-          console.log(e.key);
           break;
         case "KeyD":
         case "ArrowRight":
@@ -142,15 +139,11 @@ export default {
         case "ArrowDown":
           if (!this.isWall(this.player.x, this.player.y + 1)) this.player.y++;
           this.isBoyleft = false;
-          e.stopPropagation();
-          e.preventDefault();
-          console.log(e.key);
           break;
         case "KeyA":
         case "ArrowLeft":
           if (!this.isWall(this.player.x - 1, this.player.y)) this.player.x--;
           this.isBoyleft = true;
-
           break;
       }
       if (
@@ -217,7 +210,7 @@ export default {
 
 <style scoped>
 .maze {
-  height: 550px;
+  height: 570px;
 }
 .runboy {
   position: absolute;

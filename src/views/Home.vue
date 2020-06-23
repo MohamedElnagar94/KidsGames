@@ -71,247 +71,18 @@
 
     <!-- PROMOTION SECTION-->
     <section
-      class="promotionWrapper"
-      style="background-image: url(img/home/promotion-1.jpg);"
+      class="promotionWrapper colorSection full-width clearfix bg-color-4 servicesSection"
     >
       <div class="container">
         <div class="promotionInfo">
           <h2>Need More Information?</h2>
-          <!-- <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-            eiusmod
-          </p> -->
+
           <a href="/contactus" class="btn btn-primary"
             ><i class="fa fa-phone" aria-hidden="true"></i>Contact</a
           >
         </div>
       </div>
     </section>
-
-    <!-- WHITE SECTION -->
-    <section
-      class="whiteSection full-width clearfix coursesSection"
-      id="ourCourses"
-    >
-      <div class="container">
-        <div class="sectionTitle text-center">
-          <h2>
-            <span class="shape shape-left bg-color-4"></span>
-            <span>Our Courses</span>
-            <span class="shape shape-right bg-color-4"></span>
-          </h2>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-3 col-xs-12 block">
-            <div class="thumbnail thumbnailContent">
-              <a href="course-single-left-sidebar.html"
-                ><img
-                  src="img/home/courses/course-1.jpg"
-                  alt="image"
-                  class="img-responsive"
-              /></a>
-              <div class="sticker bg-color-1">$50</div>
-              <div class="caption border-color-1">
-                <h3>
-                  <a href="course-single-left-sidebar.html" class="color-1"
-                    >Morbi scelerisque nibh.</a
-                  >
-                </h3>
-                <ul class="list-unstyled">
-                  <li>
-                    <i class="fa fa-calendar-o" aria-hidden="true"></i>Age 2 to
-                    4 Years
-                  </li>
-                  <li>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i
-                    >9.00AM-11.00AM
-                  </li>
-                </ul>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                </p>
-                <ul class="list-inline btn-yellow">
-                  <li>
-                    <a href="cart-page.html" class="btn btn-primary "
-                      ><i class="fa fa-shopping-basket " aria-hidden="true"></i
-                      >Add to Cart</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="course-single-left-sidebar.html"
-                      class="btn btn-link"
-                      ><i
-                        class="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      ></i>
-                      More</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-xs-12 block">
-            <div class="thumbnail thumbnailContent">
-              <a href="course-single-left-sidebar.html"
-                ><img
-                  src="img/home/courses/course-2.jpg"
-                  alt="image"
-                  class="img-responsive"
-              /></a>
-              <div class="sticker bg-color-2">$50</div>
-              <div class="caption border-color-2">
-                <h3>
-                  <a href="course-single-left-sidebar.html" class="color-2"
-                    >Phasellus convallis eros.</a
-                  >
-                </h3>
-                <ul class="list-unstyled">
-                  <li>
-                    <i class="fa fa-calendar-o" aria-hidden="true"></i>Age 2 to
-                    4 Years
-                  </li>
-                  <li>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i
-                    >9.00AM-11.00AM
-                  </li>
-                </ul>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                </p>
-                <ul class="list-inline btn-green">
-                  <li>
-                    <a href="cart-page.html" class="btn btn-primary "
-                      ><i class="fa fa-shopping-basket " aria-hidden="true"></i
-                      >Add to Cart</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="course-single-left-sidebar.html"
-                      class="btn btn-link"
-                      ><i
-                        class="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      ></i>
-                      More</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-xs-12 block">
-            <div class="thumbnail thumbnailContent">
-              <a href="course-single-left-sidebar.html"
-                ><img
-                  src="img/home/courses/course-3.jpg"
-                  alt="image"
-                  class="img-responsive"
-              /></a>
-              <div class="sticker bg-color-3">$50</div>
-              <div class="caption border-color-3">
-                <h3>
-                  <a href="course-single-left-sidebar.html" class="color-3"
-                    >Suspendisse a libero da.</a
-                  >
-                </h3>
-                <ul class="list-unstyled">
-                  <li>
-                    <i class="fa fa-calendar-o" aria-hidden="true"></i>Age 2 to
-                    4 Years
-                  </li>
-                  <li>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i
-                    >9.00AM-11.00AM
-                  </li>
-                </ul>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                </p>
-                <ul class="list-inline btn-red">
-                  <li>
-                    <a href="cart-page.html" class="btn btn-primary "
-                      ><i class="fa fa-shopping-basket " aria-hidden="true"></i
-                      >Add to Cart</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="course-single-left-sidebar.html"
-                      class="btn btn-link"
-                      ><i
-                        class="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      ></i>
-                      More</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-xs-12 block">
-            <div class="thumbnail thumbnailContent">
-              <a href="course-single-left-sidebar.html"
-                ><img
-                  src="img/home/courses/course-4.jpg"
-                  alt="image"
-                  class="img-responsive"
-              /></a>
-              <div class="sticker bg-color-4">$50</div>
-              <div class="caption border-color-4">
-                <h3>
-                  <a href="course-single-left-sidebar.html" class="color-4"
-                    >Aenean cursus urna nec.</a
-                  >
-                </h3>
-                <ul class="list-unstyled">
-                  <li>
-                    <i class="fa fa-calendar-o" aria-hidden="true"></i>Age 2 to
-                    4 Years
-                  </li>
-                  <li>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i
-                    >9.00AM-11.00AM
-                  </li>
-                </ul>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                </p>
-                <ul class="list-inline btn-sky">
-                  <li>
-                    <a href="cart-page.html" class="btn btn-primary "
-                      ><i class="fa fa-shopping-basket " aria-hidden="true"></i
-                      >Add to Cart</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="course-single-left-sidebar.html"
-                      class="btn btn-link"
-                      ><i
-                        class="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      ></i>
-                      More</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- COLOR SECTION -->
 
     <!-- WHITE SECTION -->
     <section
@@ -719,46 +490,6 @@
       </div>
     </section>
 
-    <!-- COUNT UP SECTION-->
-    <!-- <section class="countUpSection">
-      <div class="container">
-        <div class="sectionTitleSmall">
-          <h2>Some Fun Facts</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-            eiusmod
-          </p>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-3 col-xs-12">
-            <div class="text-center">
-              <div class="counter">179</div>
-              <div class="counterInfo bg-color-1">Events Held</div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-xs-12">
-            <div class="text-center">
-              <div class="counter">579</div>
-              <div class="counterInfo bg-color-2">Happy Funs</div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-xs-12">
-            <div class="text-center">
-              <div class="counter">279</div>
-              <div class="counterInfo bg-color-3">happy clients</div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-xs-12">
-            <div class="text-center">
-              <div class="counter">479</div>
-              <div class="counterInfo bg-color-4">hours support</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
     <!-- WHITE SECTION -->
     <section
       class="whiteSection full-width clearfix newsSection"
@@ -776,7 +507,7 @@
         <div class="row">
           <div class="col-sm-4 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
-              <a href="/bubblesort"
+              <a href="/sortsLevels"
                 ><img
                   src="img/home/news/photo14.png"
                   alt="image"
@@ -785,7 +516,7 @@
               <div class="sticker-round bg-color-1">17 <br />June</div>
               <div class="caption border-color-1">
                 <h3>
-                  <a href="/bubblesort" class="color-1">Bubble Sort Game</a>
+                  <a href="/sortsLevels" class="color-1">Bubble Sort Game</a>
                 </h3>
 
                 <p>
@@ -798,7 +529,7 @@
           </div>
           <div class="col-sm-4 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
-              <a href="/maze"
+              <a href="/cardsLevels"
                 ><img
                   src="img/home/news/photo12.png"
                   alt="image"
@@ -807,7 +538,7 @@
               <div class="sticker-round bg-color-2">22 <br />June</div>
               <div class="caption border-color-2">
                 <h3>
-                  <a href="/maze" class="color-2">Maze Game</a>
+                  <a href="/cardsLevels" class="color-2">Maze Game</a>
                 </h3>
 
                 <p>
@@ -820,7 +551,7 @@
           </div>
           <div class="col-sm-4 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
-              <a href="/numbersExam"
+              <a href="/numbersLevels"
                 ><img
                   src="img/home/news/photo6.png"
                   alt="image"
@@ -829,7 +560,7 @@
               <div class="sticker-round bg-color-3">16 <br />June</div>
               <div class="caption border-color-3">
                 <h3>
-                  <a href="/numbersExam" class="color-3">Compare Game</a>
+                  <a href="/numbersLevels" class="color-3">Compare Game</a>
                 </h3>
 
                 <p>

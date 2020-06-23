@@ -122,7 +122,7 @@ export default {
     onKeyDown(e) {
       if (this.$refs.maze && !this.intermission && !this.menuOpen)
         this.$refs.maze.onKeyDown(e);
-      // this.noScroll();
+
       if (e.key === "ArrowUp" || e.key === "ArrowDown") {
         e.stopPropagation();
         e.preventDefault();
@@ -185,14 +185,7 @@ export default {
         return false;
       }
     },
-    noScroll() {
-      var x = window.scrollX;
-      var y = window.scrollY;
-      window.onscroll = function() {
-        window.scrollTo(x, y);
-      };
-      console.log("no scroll aash");
-    },
+
     forceRerender: function(e) {
       if (this.level == 7) {
         this.error = null;
@@ -213,8 +206,6 @@ export default {
   },
   created() {
     this.newMaze();
-
-    this.preventscroll();
 
     let levels = JSON.parse(localStorage.getItem("CardsLevels"));
     levels[5].open = true;
