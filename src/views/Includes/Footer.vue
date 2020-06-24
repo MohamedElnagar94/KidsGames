@@ -75,7 +75,7 @@
                   <div
                     class="media d-flex justify-content-center align-items-center"
                   >
-                    <a class="media-left mr-2" href="/numbers">
+                    <a class="media-left mr-2" href="/numbersLevels">
                       <img
                         class="media-object img-rounded border-color-1"
                         src="img/footer/photo1.png"
@@ -84,7 +84,7 @@
                     </a>
                     <div class="media-body">
                       <h5 class="media-heading">
-                        <a href="/numbers">Numbers Game</a>
+                        <a href="/numbersLevels">Numbers Game</a>
                       </h5>
                       <p>June 6 - 2020</p>
                     </div>
@@ -94,7 +94,7 @@
                   <div
                     class="media d-flex justify-content-center align-items-center"
                   >
-                    <a class="media-left mr-2" href="/ballons">
+                    <a class="media-left mr-2" href="/cardsLevels">
                       <img
                         class="media-object img-rounded border-color-2"
                         src="img/footer/photo4.png"
@@ -103,7 +103,7 @@
                     </a>
                     <div class="media-body">
                       <h5 class="media-heading">
-                        <a href="/ballons">Ballons Game</a>
+                        <a href="/cardsLevels">Ballons Game</a>
                       </h5>
                       <p>June 8 - 2020</p>
                     </div>
@@ -113,7 +113,7 @@
                   <div
                     class="media d-flex justify-content-center align-items-center"
                   >
-                    <a class="media-left mr-2" href="/insertionsort">
+                    <a class="media-left mr-2" href="/sortsLevels">
                       <img
                         class="media-object img-rounded border-color-4"
                         src="img/footer/photo15.png"
@@ -122,7 +122,7 @@
                     </a>
                     <div class="media-body">
                       <h5 class="media-heading">
-                        <a href="/insertionsort">Inseration Sort Game</a>
+                        <a href="/sortsLevels">Inseration Sort Game</a>
                       </h5>
                       <p>June 9 - 2020</p>
                     </div>

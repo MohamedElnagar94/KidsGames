@@ -35,10 +35,10 @@
     <div class="w-100 text-center">
       <button
         class="btn btn-primary mt-3 playAgain"
+        v-if="level == 8"
         @click="forceRerender($event)"
-        v-if="level == 7"
       >
-        Play Again
+        play again
       </button>
     </div>
     <div
@@ -122,13 +122,16 @@ export default {
     onKeyDown(e) {
       if (this.$refs.maze && !this.intermission && !this.menuOpen)
         this.$refs.maze.onKeyDown(e);
-
-      if (e.key === "ArrowUp" || e.key === "ArrowDown") {
-        e.stopPropagation();
+      if ([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
         e.preventDefault();
-        console.log(e.key);
-        return false;
       }
+
+      // if (e.key === "ArrowUp" || e.key === "ArrowDown") {
+      //   e.stopPropagation();
+      //   e.preventDefault();
+      //   console.log(e.key);
+      //   return false;
+      // }
     },
     win() {
       this.intermission = 2;
@@ -187,7 +190,7 @@ export default {
     },
 
     forceRerender: function(e) {
-      if (this.level == 7) {
+      if (this.level == 8) {
         this.error = null;
         this.maze = null;
         this.level = 1;
@@ -195,6 +198,7 @@ export default {
         this.ws = null;
         this.offline = true;
         this.menuOpen = false;
+        console.log("forcerernder");
         if (e.key === "ArrowUp" || e.key === "ArrowDown") {
           e.stopPropagation();
           e.preventDefault();
@@ -289,8 +293,8 @@ export default {
   z-index: 999;
 }
 .playAgain {
-  top: 73%;
-  left: 45%;
+  // top: 47%;
+  // left: 40%;
   position: absolute;
   font-weight: bold;
   font-size: 24px;

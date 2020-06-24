@@ -23,7 +23,7 @@
                 ></i>
               </span>
               <div class="media-body">
-                <h3 class="media-heading color-1">Learn Kids</h3>
+                <h3 class="media-heading color-1">Teach Kids</h3>
                 <p>
                   kids learn numbers by sound and simple number of fruits , fun
                   and intuitive numbers game for your baby or toddler! By drag
@@ -56,7 +56,7 @@
                 ></i>
               </span>
               <div class="media-body">
-                <h3 class="media-heading color-3">Learn Algorithm</h3>
+                <h3 class="media-heading color-3">Teach Algorithm</h3>
                 <p>
                   this part contain serveral games to illustrate how to sort
                   numbers using algorithm (Bubble Sort - Insertion Sort - Merge
