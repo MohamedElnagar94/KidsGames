@@ -111,7 +111,12 @@ export default {
           sound: "level 4.mp3"
         },
         { level: 5, open: false, href: "/maze", sound: "level 5.mp3" },
-        { level: 6, open: false, href: "/puzzle1Collections", sound: "level 6.mp3" },
+        {
+          level: 6,
+          open: false,
+          href: "/puzzle1Collections",
+          sound: "level 6.mp3"
+        },
         {
           level: 7,
           open: false,

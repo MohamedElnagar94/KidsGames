@@ -9,7 +9,7 @@
             <div class="sectionTitle text-center">
               <h2>
                 <span class="shape shape-left bg-color-4"></span>
-                <span></span>
+                <span>Find The Treasure</span>
                 <span class="shape shape-right bg-color-4"></span>
               </h2>
             </div>
@@ -41,6 +41,7 @@
 <script>
 import Header from "@/components/HeaderComponent.vue";
 import Maze from "@/components/MazeGame/StartComponent.vue";
+
 export default {
   name: "MazeRunner",
   data() {

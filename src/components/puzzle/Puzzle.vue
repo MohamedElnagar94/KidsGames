@@ -112,7 +112,6 @@ export default {
       if (this.score == 4) {
         $("#finalImage")[0].style.display = "none";
         $(".answer")[0].style.display = "inline-block";
-        
       }
       this.score = 0;
     },

@@ -9,7 +9,7 @@
             <div class="sectionTitle text-center">
               <h2>
                 <span class="shape shape-left bg-color-4"></span>
-                <span>Our Teacher 3</span>
+                <span>Our Team</span>
                 <span class="shape shape-right bg-color-4"></span>
               </h2>
             </div>
@@ -21,42 +21,23 @@
               <a class="media-left" href="#">
                 <img
                   class="img-rounded img-responsive"
-                  src="img/home/team/team-1.jpg"
+                  src="img/home/team/t1.jpg"
                   alt="Image"
                 />
               </a>
               <div class="media-body">
-                <h4 class="media-heading"><a href="#">Amanda Stone</a></h4>
-                <h5>English Teacher</h5>
-                <p>
-                  They must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising pain was born and I will give
-                  you.
-                </p>
+                <h4 class="media-heading"><a href="#">Mohamed Elnagar</a></h4>
+                <h5>Fullstack Developer</h5>
+
                 <ul class="list-inline">
                   <li>
-                    <a href="#" class="bg-color-1"
+                    <a href="#" class="bg-color-1 facebook"
                       ><i class="fa fa-facebook" aria-hidden="true"></i
                     ></a>
                   </li>
                   <li>
                     <a href="#" class="bg-color-2"
                       ><i class="fa fa-twitter" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-3"
-                      ><i class="fa fa-google-plus" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-4"
-                      ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-5"
-                      ><i class="fa fa-vimeo" aria-hidden="true"></i
                     ></a>
                   </li>
                 </ul>
@@ -68,42 +49,23 @@
               <a class="media-left" href="#">
                 <img
                   class="img-rounded img-responsive"
-                  src="img/home/team/team-2.jpg"
+                  src="img/home/team/t2.jpeg"
                   alt="Image"
                 />
               </a>
               <div class="media-body">
-                <h4 class="media-heading"><a href="#">Amanda Stone</a></h4>
-                <h5>English Teacher</h5>
-                <p>
-                  They must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising pain was born and I will give
-                  you.
-                </p>
+                <h4 class="media-heading"><a href="#">Eslam Taher</a></h4>
+                <h5>Fullstack Developer</h5>
+
                 <ul class="list-inline">
                   <li>
-                    <a href="#" class="bg-color-1"
+                    <a href="#" class="bg-color-1 facebook "
                       ><i class="fa fa-facebook" aria-hidden="true"></i
                     ></a>
                   </li>
                   <li>
                     <a href="#" class="bg-color-2"
                       ><i class="fa fa-twitter" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-3"
-                      ><i class="fa fa-google-plus" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-4"
-                      ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-5"
-                      ><i class="fa fa-vimeo" aria-hidden="true"></i
                     ></a>
                   </li>
                 </ul>
@@ -115,42 +77,23 @@
               <a class="media-left" href="#">
                 <img
                   class="img-rounded img-responsive"
-                  src="img/home/team/team-3.jpg"
+                  src="img/home/team/t3.jpeg"
                   alt="Image"
                 />
               </a>
               <div class="media-body">
-                <h4 class="media-heading"><a href="#">Amanda Stone</a></h4>
-                <h5>English Teacher</h5>
-                <p>
-                  They must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising pain was born and I will give
-                  you.
-                </p>
+                <h4 class="media-heading"><a href="#">Ashraf Amer </a></h4>
+                <h5>Fullstack Developer</h5>
+
                 <ul class="list-inline">
                   <li>
-                    <a href="#" class="bg-color-1"
+                    <a href="#" class="bg-color-1 facebook "
                       ><i class="fa fa-facebook" aria-hidden="true"></i
                     ></a>
                   </li>
                   <li>
                     <a href="#" class="bg-color-2"
                       ><i class="fa fa-twitter" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-3"
-                      ><i class="fa fa-google-plus" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-4"
-                      ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="bg-color-5"
-                      ><i class="fa fa-vimeo" aria-hidden="true"></i
                     ></a>
                   </li>
                 </ul>
@@ -162,21 +105,17 @@
               <a class="media-left" href="#">
                 <img
                   class="img-rounded img-responsive"
-                  src="img/home/team/team-4.jpg"
+                  src="img/home/team/t4.jpg"
                   alt="Image"
                 />
               </a>
               <div class="media-body">
-                <h4 class="media-heading"><a href="#">Amanda Stone</a></h4>
-                <h5>English Teacher</h5>
-                <p>
-                  They must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising pain was born and I will give
-                  you.
-                </p>
+                <h4 class="media-heading"><a href="#">Mohamed Farag</a></h4>
+                <h5>Fullstack Developer</h5>
+
                 <ul class="list-inline">
                   <li>
-                    <a href="#" class="bg-color-1"
+                    <a href="#" class="bg-color-1 facebook "
                       ><i class="fa fa-facebook" aria-hidden="true"></i
                     ></a>
                   </li>
@@ -185,19 +124,60 @@
                       ><i class="fa fa-twitter" aria-hidden="true"></i
                     ></a>
                   </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xs-12">
+            <div class="media teamStyle">
+              <a class="media-left" href="#">
+                <img
+                  class="img-rounded img-responsive"
+                  src="img/home/team/t5.jpeg"
+                  alt="Image"
+                />
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="#">Bannan Emad</a></h4>
+                <h5>Fullstack Developer</h5>
+
+                <ul class="list-inline">
                   <li>
-                    <a href="#" class="bg-color-3"
-                      ><i class="fa fa-google-plus" aria-hidden="true"></i
+                    <a href="#" class="bg-color-1 facebook "
+                      ><i class="fa fa-facebook" aria-hidden="true"></i
                     ></a>
                   </li>
                   <li>
-                    <a href="#" class="bg-color-4"
-                      ><i class="fa fa-pinterest-p" aria-hidden="true"></i
+                    <a href="#" class="bg-color-2"
+                      ><i class="fa fa-twitter" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xs-12">
+            <div class="media teamStyle">
+              <a class="media-left" href="#">
+                <img
+                  class="img-rounded img-responsive t6"
+                  src="img/home/team/t6.jpeg"
+                  alt="Image"
+                />
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="#">Maryam Gowifel</a></h4>
+                <h5>Fullstack Developer</h5>
+
+                <ul class="list-inline">
+                  <li>
+                    <a href="#" class="bg-color-1 facebook "
+                      ><i class="fa fa-facebook" aria-hidden="true"></i
                     ></a>
                   </li>
                   <li>
-                    <a href="#" class="bg-color-5"
-                      ><i class="fa fa-vimeo" aria-hidden="true"></i
+                    <a href="#" class="bg-color-2"
+                      ><i class="fa fa-twitter" aria-hidden="true"></i
                     ></a>
                   </li>
                 </ul>
@@ -225,3 +205,12 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.t6 {
+  height: 118px;
+}
+.bg-color-1 {
+  background-color: rgb(69, 69, 209) !important;
+}
+</style>

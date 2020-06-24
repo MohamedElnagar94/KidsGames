@@ -30,14 +30,12 @@ const routes = [
   {
     path: "/photoGallery",
     name: "PhotoGallery",
-    component: () =>
-      import("../views/PhotoGallery.vue")
+    component: () => import("../views/PhotoGallery.vue")
   },
   {
     path: "/contactus",
     name: "ContactUs",
-    component: () =>
-      import("../views/ContactUs.vue")
+    component: () => import("../views/ContactUs.vue")
   },
   {
     path: "/numbersLevels",

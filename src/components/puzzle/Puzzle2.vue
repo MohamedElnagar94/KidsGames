@@ -133,7 +133,6 @@ export default {
       if (this.score == 6) {
         $("#finalImage")[0].style.display = "none";
         $(".answer")[0].style.display = "inline-block";
-        
       }
       this.score = 0;
     },
@@ -411,18 +410,18 @@ function randomize() {
   }
 }
 .answer {
-    width:100%;
+  width: 100%;
 }
-.answer span{
-    border:1px solid black;
-     display:inline-block;
-     width:26%;
-     height:107px;
-     margin-top:.1em;
+.answer span {
+  border: 1px solid black;
+  display: inline-block;
+  width: 26%;
+  height: 107px;
+  margin-top: 0.1em;
 }
 
- #finalImage{
-    width:30%;
-    margin:4em 30% 2em ;
+#finalImage {
+  width: 30%;
+  margin: 4em 30% 2em;
 }
 </style>
