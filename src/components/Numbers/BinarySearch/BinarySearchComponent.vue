@@ -1,13 +1,22 @@
 <template>
   <div class="container" :key="keyChange">
     <div class="row position-relative">
-      <div class="text-center h1 w-100">
-        <span style="font-size: 40px;color: darkviolet;font-weight: bold;"
-          >The Wanted Number
+      <div
+        class="text-center d-flex flex-column justfy-content-center align-items-center h1 w-100"
+      >
+        <span style="font-size: 30px;color: darkviolet;font-weight: bold;"
+          >Enter the Wanted Number
         </span>
+        <input
+          class="text-center mt-3"
+          style="border-radius:30px;border-color: darkviolet; color: darkviolet"
+          @keyup.enter="fun($event)"
+          type="text"
+          v-model.lazy="theWantedNumber"
+        />
         <span
-          class="d-block"
-          style="font-size: 40px;color: blueviolet;font-weight: 900;"
+          class="d-block mt-3"
+          style="font-size: 50px;color: blueviolet;font-weight: 900; background: burlywood;width:50px ;border-radius:25px"
           >{{ theWantedNumber }}</span
         >
       </div>
@@ -36,6 +45,7 @@
         </transition-group>
 
         <i
+          v-if="theWantedNumber > 0 && theWantedNumber < 10"
           class="fa fa-refresh  mr-5"
           @click.once="sortNumbers"
           aria-hidden="true"
@@ -257,7 +267,7 @@ export default {
   name: "BinarySearch",
   data() {
     return {
-      theWantedNumber: 0,
+      theWantedNumber: null,
       numbers: [],
       sortedNumbers: [],
       seconedResult: [],
@@ -272,11 +282,26 @@ export default {
     };
   },
   methods: {
+    fun(ev) {
+      console.log("====>", ev.target);
+      console.log("====>", this.theWantedNumber);
+      this.theWantedNumber = parseInt(this.theWantedNumber);
+      if (this.theWantedNumber > 0 && this.theWantedNumber < 10) {
+        $(ev.target).hide(1000);
+      } else {
+        Swal.fire({
+          title: "",
+          html: `<h4 class="text-danger">warnning</h4><h5 class="text-danger">Please Enter Number form 1 to 9</h5>`,
+          // icon: "error",
+          confirmButtonText: "Ok"
+        });
+      }
+    },
     randomNumber: function(minNum, maxNum) {
       return Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
     },
     start: function() {
-      this.theWantedNumber = this.randomNumber(1, 9);
+      this.theWantedNumber = null;
       this.numbers = [];
       for (let i = 0; i < 9; i++) {
         let randResult = this.randomNumber(1, 9);
@@ -377,8 +402,9 @@ export default {
             }, 1300);
           } else if (this.theWantedNumber == this.middleNumber) {
             $(`#${this.theWantedNumber}a`).addClass(
-              "divBg animated heartBeat delay-1s repeat-3 "
+              "animated heartBeat delay-1s repeat-3 "
             );
+            $(`#${this.theWantedNumber}`).addClass("divBg");
             setTimeout(() => {
               this.endGame();
             }, 5000);
@@ -398,8 +424,9 @@ export default {
             });
           } else if (this.theWantedNumber == this.middleNumber) {
             $(`#${this.theWantedNumber}ab`).addClass(
-              "divBg animated heartBeat  delay-1s repeat-3 "
+              "animated heartBeat delay-1s repeat-3 "
             );
+            $(`#${this.theWantedNumber}a`).addClass("divBg");
 
             setTimeout(() => {
               this.endGame();
@@ -548,11 +575,11 @@ export default {
     setTimeout(function() {
       Swal.fire({
         title: "Frist Step",
-        text: "Click on the Sort",
+        html: `<h5>Please Enter Number form 1 to 9</h5>`,
         // icon: "error",
         confirmButtonText: "Ok"
       });
-    }, 2000);
+    }, 1000);
   }
 };
 </script>
