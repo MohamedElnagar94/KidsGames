@@ -6,10 +6,11 @@
         <div class="col-sm-4 col-xs-12">
           <div class="teachersPhoto">
             <img
-              src="img/home/team/team-1.jpg"
+              src="/storage/Images/child2.jpeg"
               alt="image"
               class="img-rounded img-responsive"
             />
+            <!-- <input accept="image/*" type="file" @change=uploadImage> -->
           </div>
         </div>
         <div class="col-sm-8 col-xs-12">
@@ -63,10 +64,27 @@ export default {
       kidDegree2: [],
       gameName2: [],
       dateDegree: [],
-      dateDegree2:[]
+      dateDegree2:[],
+      // previewImage:null,
+      // image : null,
+      // imageUrl: null
     };
   },
   methods: {
+    // uploadImage(e){
+    //     const image = e.target.files[0];
+    //     const reader = new FileReader();
+    //     reader.readAsDataURL(image);
+    //     reader.onload = e =>{
+    //         this.previewImage = e.target.result;
+    //         console.log(this.previewImage);
+    //     };
+    //     this.image = image
+    //     this.imageUrl = URL.createObjectURL(image)
+    //     let data = new FormData();
+    //     data.append('name', image, image.name);
+    //     data.append('file', image); 
+    // },
     fillData: function() {
       this.datacollection = {
         labels: this.dateDegree,
@@ -88,34 +106,28 @@ export default {
           }
         ]
       };
-      console.log("mohamed",this.datacollection)
     },
     kidDegreeNum1: function() {
-        console.log("kidDegreeNum1",this.numberExam1.length)
       for (let i = 0; i < this.numberExam1.length; i++) {
         this.kidDegree1.push(this.numberExam1[i].kid_degree);
       }
     },
     kidDegreeNum2: function() {
-      console.log("kidDegreeNum2",this.numberExam2.length)
       for (let i = 0; i < this.numberExam2.length; i++) {
         this.kidDegree2.push(this.numberExam2[i].kid_degree);
       }
     },
     createNames1: function() {
-        console.log("createNames1",this.numberExam1.length)
       for (let i = 0; i < this.numberExam1.length; i++) {
         this.gameName1.push(this.numberExam1[i].game.game_name);
       }
     },
     createNames2: function() {
-        console.log("createNames2",this.numberExam2.length)
       for (let i = 0; i < this.numberExam2.length; i++) {
         this.gameName2.push(this.numberExam2[i].game.game_name);
       }
     },
     createDate: function() {
-        console.log("createDate",this.numberExam1.length)
       for (let i = 0; i < this.numberExam1.length; i++) {
         var d = new Date(this.numberExam1[i].created_at),
           month = "" + (d.getMonth() + 1),
@@ -124,15 +136,11 @@ export default {
 
         if (month.length < 2) month = "0" + month;
         if (day.length < 2) day = "0" + day;
-
-        // return [year, month, day].join('-');
-        // let date = new Date(this.chartData[i].created_at,"yyyy-MM-dd")
         console.log([year, month, day].join("-"));
         this.dateDegree.push([year, month, day].join("-"));
       }
     },
     createDate2: function() {
-        console.log("createDate",this.numberExam2.length)
       for (let i = 0; i < this.numberExam2.length; i++) {
         var d = new Date(this.numberExam2[i].created_at),
           month = "" + (d.getMonth() + 1),
@@ -141,9 +149,6 @@ export default {
 
         if (month.length < 2) month = "0" + month;
         if (day.length < 2) day = "0" + day;
-
-        // return [year, month, day].join('-');
-        // let date = new Date(this.chartData[i].created_at,"yyyy-MM-dd")
         console.log([year, month, day].join("-"));
         this.dateDegree2.push([year, month, day].join("-"));
       }

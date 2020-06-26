@@ -68,23 +68,23 @@ export default {
           level: 1,
           open: true,
           href: "/puzzle",
-          img: "card2-2.png",
+          img: "puzzle1.png",
           title: "Puzzle Level 1",
           textColor: "color-1",
           border: "border-color-1",
           description:
-            "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. "
+            ""
         },
         {
           level: 2,
           open: true,
           href: "/puzzle2",
-          img: "card2-3.png",
+          img: "puzzle2.png",
           title: "Puzzle Level 2",
           textColor: "color-2",
           border: "border-color-2",
           description:
-            "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. "
+            ""
         }
       ];
       localStorage.setItem("Puzzle1Collections", JSON.stringify(allData));

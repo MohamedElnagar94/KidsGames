@@ -10,8 +10,7 @@
               <h2>
                 <span class="shape shape-left bg-color-4"></span>
                 <span
-                  >This collection helps you to learn how to memories between
-                  photos</span
+                  >This collection helps you to learn how to collect parts to show the complete picture</span
                 >
                 <span class="shape shape-right bg-color-4"></span>
               </h2>

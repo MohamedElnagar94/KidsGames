@@ -134,7 +134,7 @@
       </div>
       <div
         class="text-center w-100 d-flex justify-content-center align-items-center mt-5 "
-        v-if="theWantedNumber === middleNumber"
+        v-if="theWantedNumber === middleNumber && middleNumber !== null"
       >
         <div
           class="result d-flex justify-content-center align-items-center m-3 divBg animated heartBeat repeat-3"
@@ -273,7 +273,7 @@ export default {
       seconedResult: [],
       thirdResult: [],
       finalResult: [],
-      middleNumber: 0,
+      middleNumber: null,
       synth: window.speechSynthesis,
       steps: 0,
       changeColor: false,
@@ -445,7 +445,7 @@ export default {
       this.seconedResult = [];
       this.thirdResult = [];
       this.finalResult = [];
-      this.middleNumber = 0;
+      this.middleNumber = null;
       this.keyChange++;
     },
     endGame() {

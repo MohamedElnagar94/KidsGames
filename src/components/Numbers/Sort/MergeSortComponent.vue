@@ -360,7 +360,7 @@
                         height: '80px',
                         'border-radius': '30%',
                         border: '2px solid orange',
-                        'background-color': ' lightblue'
+                        'background-color': 'lightgreen'
                       }
                 ]"
               ></div>
@@ -378,7 +378,7 @@
                         height: '80px',
                         'border-radius': '30%',
                         border: '2px solid orange',
-                        'background-color': 'rgb(255, 218, 224)'
+                        'background-color': 'lightgreen'
                       }
                 ]"
               ></div>
@@ -401,7 +401,7 @@
                         height: '80px',
                         'border-radius': '30%',
                         border: '2px solid orange',
-                        'background-color': '#FAEBD7'
+                        'background-color': 'lightpink'
                       }
                 ]"
               ></div>
@@ -418,7 +418,7 @@
                         height: '80px',
                         'border-radius': '30%',
                         border: '2px solid orange',
-                        'background-color': ' rgb(216, 255, 157)'
+                        'background-color': 'lightpink'
                       }
                 ]"
               ></div>
@@ -479,7 +479,7 @@
                       : {
                           'border-radius': '30%',
                           border: '2px solid orange',
-                          'background-color': 'lightpink'
+                          'background-color': 'lightgreen'
                         }
                   ]"
                 >
@@ -513,7 +513,7 @@
                       : {
                           'border-radius': '30%',
                           border: '2px solid orange',
-                          'background-color': 'lightpink'
+                          'background-color': 'lightgreen'
                         }
                   ]"
                 >
@@ -621,7 +621,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #F2BBAD',
-                        'background-color': ' lightblue'
+                        'background-color': ' lightgreen'
                       }
                 ]"
               ></div>
@@ -639,7 +639,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #F2BBAD',
-                        'background-color': ' lightblue'
+                        'background-color': ' lightgreen'
                       }
                 ]"
               ></div>
@@ -661,7 +661,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #F2BBAD',
-                        'background-color': ' lightblue'
+                        'background-color': ' lightgreen'
                       }
                 ]"
               ></div>
@@ -679,7 +679,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #F2BBAD',
-                        'background-color': ' lightblue'
+                        'background-color': ' lightgreen'
                       }
                 ]"
               ></div>
@@ -701,7 +701,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #F2BBAD',
-                        'background-color': ' lightblue'
+                        'background-color': ' lightpink'
                       }
                 ]"
               ></div>
@@ -719,7 +719,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #F2BBAD',
-                        'background-color': ' lightblue'
+                        'background-color': ' lightpink'
                       }
                 ]"
               ></div>
@@ -741,7 +741,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #F2BBAD',
-                        'background-color': 'lightblue'
+                        'background-color': 'lightpink'
                       }
                 ]"
               ></div>
@@ -759,7 +759,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #F2BBAD',
-                        'background-color': 'lightblue'
+                        'background-color': 'lightpink'
                       }
                 ]"
               ></div>
@@ -802,7 +802,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #FFD5AA',
-                        'background-color': '#F0B9D6'
+                        'background-color': 'lightgreen'
                       }
                 ]"
               >
@@ -836,7 +836,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '3px solid #FFD5AA',
-                        'background-color': '#F0B9D6'
+                        'background-color': 'lightgreen'
                       }
                 ]"
               >
@@ -875,7 +875,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #FFD5AA',
-                        'background-color': '#F0B9D6'
+                        'background-color': 'lightgreen'
                       }
                 ]"
               >
@@ -909,7 +909,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '3px solid #FFD5AA',
-                        'background-color': '#F0B9D6'
+                        'background-color': 'lightgreen'
                       }
                 ]"
               >
@@ -950,7 +950,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #FFD5AA',
-                        'background-color': '#F0B9D6'
+                        'background-color': 'lightpink'
                       }
                 ]"
               >
@@ -984,7 +984,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '3px solid #FFD5AA',
-                        'background-color': '#F0B9D6'
+                        'background-color': 'lightpink'
                       }
                 ]"
               >
@@ -1023,7 +1023,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #FFD5AA',
-                        'background-color': '#F0B9D6'
+                        'background-color': 'lightpink'
                       }
                 ]"
               >
@@ -1057,7 +1057,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '3px solid #FFD5AA',
-                        'background-color': '#F0B9D6'
+                        'background-color': 'lightpink'
                       }
                 ]"
               >
@@ -1179,7 +1179,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #F2BBAD',
-                        'background-color': 'lightblue'
+                        'background-color': 'lightpink'
                       }
                 ]"
               ></div>
@@ -1197,7 +1197,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #F2BBAD',
-                        'background-color': 'lightblue'
+                        'background-color': 'lightpink'
                       }
                 ]"
               ></div>
@@ -1215,7 +1215,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #F2BBAD',
-                        'background-color': 'lightblue'
+                        'background-color': 'lightpink'
                       }
                 ]"
               ></div>
@@ -1233,7 +1233,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #F2BBAD',
-                        'background-color': 'lightblue'
+                        'background-color': 'lightpink'
                       }
                 ]"
               ></div>
@@ -1397,7 +1397,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #FFD5AA',
-                        'background-color': 'lightblue'
+                        'background-color': 'lightpink'
                       }
                 ]"
               >
@@ -1426,7 +1426,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #FFD5AA',
-                        'background-color': 'lightblue'
+                        'background-color': 'lightpink'
                       }
                 ]"
               >
@@ -1456,7 +1456,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #FFD5AA',
-                        'background-color': 'lightblue'
+                        'background-color': 'lightpink'
                       }
                 ]"
               >
@@ -1486,7 +1486,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #FFD5AA',
-                        'background-color': 'lightblue'
+                        'background-color': 'lightpink'
                       }
                 ]"
               >
@@ -1526,7 +1526,7 @@
                         height: '100px',
                         'border-radius': '30%',
                         border: '2px solid #FFD5AA',
-                        'background-color': '#F0B9D6'
+                        'background-color': 'lightblue'
                       }
                 ]"
                 :id="i + '-finalResult'"

@@ -9,7 +9,7 @@
             <div class="sectionTitle text-center">
               <h2>
                 <span class="shape shape-left bg-color-4"></span>
-                <span></span>
+                <span>collect parts to show the complete picture</span>
                 <span class="shape shape-right bg-color-4"></span>
               </h2>
             </div>

@@ -3,15 +3,16 @@
     <img :src="src" class="vloume" @click="play()" alt />
     <div class="row">
       <div
-        class="col-md-12 d-flex justify-content-center align-items-center p-4"
+        class="col-md-12 d-flex justify-content-center align-items-center p-4" style="font-size: 35px;"
       >
+        <span style="margin-right: 15px;">Question</span>
         <img
-          style="height: 40px"
+          style="height: 40px;"
           :src="'/storage/Images/' + count + '.png'"
           alt=""
         />
-        <img style="height: 40px" src="/storage/Images/slash.png" alt="" />
-        <img style="height: 40px" src="/storage/Images/10.png" alt="" />
+        <span style="margin: 0 15px;">Of</span>
+        <img style="height: 40px;" src="/storage/Images/10.png" alt="" />
       </div>
       <div class="col-md-6">
         <div
