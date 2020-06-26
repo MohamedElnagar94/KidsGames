@@ -32,6 +32,9 @@
               <div class="small">
                 <LineChart :chart-data="datacollection"></LineChart>
               </div>
+              <div class="small">
+                <LineChart :chart-data="datacollection2"></LineChart>
+              </div>
             </div>
           </div>
         </div>
@@ -54,11 +57,13 @@ export default {
     return {
       degress: [],
       datacollection: null,
+      datacollection2: null,
       kidDegree1: [],
       gameName1: [],
       kidDegree2: [],
       gameName2: [],
-      dateDegree: []
+      dateDegree: [],
+      dateDegree2:[]
     };
   },
   methods: {
@@ -70,7 +75,12 @@ export default {
             label: "Practice 1 ( + , - )",
             backgroundColor: "#84BED6",
             data: this.kidDegree1
-          },
+          }
+        ]
+      };
+      this.datacollection2 = {
+        labels: this.dateDegree2,
+        datasets: [
           {
             label: "Practice 2 ( < , > , = )",
             backgroundColor: "#B5D56A",
@@ -105,9 +115,9 @@ export default {
       }
     },
     createDate: function() {
-        console.log("createDate",this.degress.length)
-      for (let i = 0; i < this.degress.length; i++) {
-        var d = new Date(this.degress[i].created_at),
+        console.log("createDate",this.numberExam1.length)
+      for (let i = 0; i < this.numberExam1.length; i++) {
+        var d = new Date(this.numberExam1[i].created_at),
           month = "" + (d.getMonth() + 1),
           day = "" + d.getDate(),
           year = d.getFullYear();
@@ -119,6 +129,23 @@ export default {
         // let date = new Date(this.chartData[i].created_at,"yyyy-MM-dd")
         console.log([year, month, day].join("-"));
         this.dateDegree.push([year, month, day].join("-"));
+      }
+    },
+    createDate2: function() {
+        console.log("createDate",this.numberExam2.length)
+      for (let i = 0; i < this.numberExam2.length; i++) {
+        var d = new Date(this.numberExam2[i].created_at),
+          month = "" + (d.getMonth() + 1),
+          day = "" + d.getDate(),
+          year = d.getFullYear();
+
+        if (month.length < 2) month = "0" + month;
+        if (day.length < 2) day = "0" + day;
+
+        // return [year, month, day].join('-');
+        // let date = new Date(this.chartData[i].created_at,"yyyy-MM-dd")
+        console.log([year, month, day].join("-"));
+        this.dateDegree2.push([year, month, day].join("-"));
       }
     }
   },
@@ -137,6 +164,7 @@ export default {
         this.createNames1();
         this.createNames2();
         this.createDate();
+        this.createDate2();
         this.fillData();
       })
       .catch(() => {}).finally(()=>{
