@@ -5,7 +5,9 @@
     <!-- <router-view :key="$route.fullPath"></router-view> -->
     <!-- </template> -->
     <!-- <tamplate v-else> -->
-    <NavBar></NavBar>
+    <keep-alive>
+      <NavBar></NavBar>
+    </keep-alive>
     <router-view :key="$route.fullPath"></router-view>
     <Footer></Footer>
     <!-- </tamplate> -->

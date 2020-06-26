@@ -1181,6 +1181,7 @@
 // @ is an alias to /src
 import Slider from "@/views/Includes/Slider.vue";
 import MainContent from "@/views/Includes/MainContent.vue";
+// import $ from "jquery/dist/jquery.min";
 export default {
   name: "Home",
   data() {

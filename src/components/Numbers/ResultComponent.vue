@@ -57,6 +57,8 @@
 </template>
 
 <script>
+import axios from "axios";
+import Swal from "sweetalert2";
 export default {
   name: "ResultComponent",
   data() {
@@ -67,10 +69,88 @@ export default {
   },
   created() {
     this.finalResult = JSON.parse(localStorage.getItem("finalResult"));
-    if (this.finalResult.length === 0) {
-      window.location.href = "/numbersLevels";
-    } else {
-      this.showResult = true;
+    this.showResult = true;
+    console.log(this.finalResult[0].location);
+    if (this.finalResult[0].location == "/numbersExam") {
+      axios
+        .post(
+          "http://127.0.0.1:8000/api/degree",
+          {
+            kid_id: this.$root.auth.id,
+            game_id: "ff4a3b6e-c254-50ce-9f16-195ea6198870",
+            result_degree: this.checkNumber,
+            final_degree: 10
+          },
+          { headers: { _token: this.$root.auth.access_token } }
+        )
+        .then(() => {
+          Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Your work has been saved",
+            showConfirmButton: false,
+            timer: 2000
+          });
+          this.finalResult = [];
+          localStorage.setItem("finalResult", JSON.stringify(this.finalResult));
+        })
+        .catch(error => {
+          if (!error.response) {
+            // network error
+            Swal.fire({
+              icon: "error",
+              title: "Oops...",
+              text: "server not found !"
+            });
+          } else {
+            Swal.fire({
+              icon: "error",
+              title: "Oops...",
+              text: error.response.data.message
+            });
+          }
+        })
+        .then(() => {});
+    } else if (this.finalResult[0].location == "/exam2") {
+      axios
+        .post(
+          "http://127.0.0.1:8000/api/degree",
+          {
+            kid_id: this.$root.auth.id,
+            game_id: "d045770c-355a-5dd1-957e-f9e925b9602b",
+            result_degree: this.checkNumber,
+            final_degree: 10
+          },
+          { headers: { _token: this.$root.auth.access_token } }
+        )
+        .then(() => {
+          Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Your work has been saved",
+            showConfirmButton: false,
+            timer: 2000
+          });
+          this.finalResult = [];
+          localStorage.setItem("finalResult", JSON.stringify(this.finalResult));
+        })
+        .catch(error => {
+          if (!error.response) {
+            // network error
+            Swal.fire({
+              icon: "error",
+              title: "Oops...",
+              text: "server not found !"
+            });
+          } else {
+            Swal.fire({
+              icon: "error",
+              title: "Oops...",
+              text: error.response.data.message
+            });
+          }
+        })
+        .then(() => {});
     }
   },
   computed: {

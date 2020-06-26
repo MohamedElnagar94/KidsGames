@@ -59,7 +59,9 @@ export default {
     };
   },
   created() {
-    let checkCollections = JSON.parse(localStorage.getItem("Puzzle1Collections"));
+    let checkCollections = JSON.parse(
+      localStorage.getItem("Puzzle1Collections")
+    );
     if (checkCollections === null) {
       let allData = [
         {
