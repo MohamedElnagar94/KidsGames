@@ -12,7 +12,7 @@
               </span>
               <div class="media-body">
                 <h3 class="media-heading">Address:</h3>
-                <p>9/4 C Block, garden Street, Shyamoli, Dhaka.</p>
+                <p>Farouq Street Zagazig,Egypt.</p>
               </div>
             </div>
           </div>
@@ -23,7 +23,7 @@
               </span>
               <div class="media-body">
                 <h3 class="media-heading">Phone:</h3>
-                <p>954 124 2542 Or 546 235 4478</p>
+                <p>010 100 23121</p>
               </div>
             </div>
           </div>
@@ -35,8 +35,7 @@
               <div class="media-body">
                 <h3 class="media-heading">Email:</h3>
                 <p>
-                  <a href="mailto:hello@example.com">hello@example.com</a> Or
-                  <a href="mailto:hello1@example.com">hello1@example.com</a>
+                  <a href="mailto:hello@example.com">sara@gmail.com</a>
                 </p>
               </div>
             </div>

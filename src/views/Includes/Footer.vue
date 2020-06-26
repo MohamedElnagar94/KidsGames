@@ -15,12 +15,14 @@
             </div>
             <div class="footerInfo">
               <p>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                officia.Lorem ipsum dolor sit amet.
+                teaching mathematics principles in simple attractive way, using
+                simple games which focused on learning numbers, mathematical
+                operations.
               </p>
               <p>
-                consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua.
+                there are some entertainment games to help improving the
+                children skills like memory games for children from 4 to 6 years
+                .
               </p>
             </div>
           </div>
@@ -73,21 +75,18 @@
                   <div
                     class="media d-flex justify-content-center align-items-center"
                   >
-                    <a class="media-left mr-2" href="single-blog.html">
+                    <a class="media-left mr-2" href="/numbersLevels">
                       <img
                         class="media-object img-rounded border-color-1"
-                        src="img/footer/footer-img-1.png"
+                        src="img/footer/photo1.png"
                         alt="Image"
                       />
                     </a>
                     <div class="media-body">
                       <h5 class="media-heading">
-                        <a href="single-blog.html"
-                          >A Clean Website Gives More Experience To The
-                          Visitors</a
-                        >
+                        <a href="/numbersLevels">Numbers Game</a>
                       </h5>
-                      <p>July 7 - 2016</p>
+                      <p>June 6 - 2020</p>
                     </div>
                   </div>
                 </li>
@@ -95,24 +94,18 @@
                   <div
                     class="media d-flex justify-content-center align-items-center"
                   >
-                    <a
-                      class="media-left mr-2"
-                      href="single-blog-left-sidebar.html"
-                    >
+                    <a class="media-left mr-2" href="/cardsLevels">
                       <img
                         class="media-object img-rounded border-color-2"
-                        src="img/footer/footer-img-2.png"
+                        src="img/footer/photo4.png"
                         alt="Image"
                       />
                     </a>
                     <div class="media-body">
                       <h5 class="media-heading">
-                        <a href="single-blog-left-sidebar.html"
-                          >A Clean Website Gives More Experience To The
-                          Visitors</a
-                        >
+                        <a href="/cardsLevels">Ballons Game</a>
                       </h5>
-                      <p>July 7 - 2016</p>
+                      <p>June 8 - 2020</p>
                     </div>
                   </div>
                 </li>
@@ -120,24 +113,18 @@
                   <div
                     class="media d-flex justify-content-center align-items-center"
                   >
-                    <a
-                      class="media-left mr-2"
-                      href="single-blog-left-sidebar.html"
-                    >
+                    <a class="media-left mr-2" href="/sortsLevels">
                       <img
                         class="media-object img-rounded border-color-4"
-                        src="img/footer/footer-img-3.png"
+                        src="img/footer/photo15.png"
                         alt="Image"
                       />
                     </a>
                     <div class="media-body">
                       <h5 class="media-heading">
-                        <a href="single-blog-left-sidebar.html"
-                          >A Clean Website Gives More Experience To The
-                          Visitors</a
-                        >
+                        <a href="/sortsLevels">Inseration Sort Game</a>
                       </h5>
-                      <p>July 7 - 2016</p>
+                      <p>June 9 - 2020</p>
                     </div>
                   </div>
                 </li>
@@ -210,8 +197,7 @@
               class="copyRightText d-flex justify-content-center align-items-center"
             >
               <p>
-                © 2016 Copyright Kidz School Bootstrap Template by
-                <a href="http://www.iamabdus.com/">Abdus</a>.
+                © 2020 Copyright Kidz School
               </p>
             </div>
           </div>

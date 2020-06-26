@@ -11,11 +11,11 @@
         v-if="level == 8"
       />
 
-      <!-- <i
+      <i
         class="material-icons hamburger cursor-pointer"
         @click="menuOpen = true"
         >menu</i
-      > -->
+      >
     </div>
     <div class="flex-1 flex flex-col h-full">
       <Maze v-if="maze" :maze="maze" class="flex-1" ref="maze" @win="win" />
@@ -23,20 +23,22 @@
         <div
           class="flex flex-col justify-center items-center h-full winMessage"
         >
-          <p class="text-4xl font-semibold mb-1 bold">
+          <p class="text-4xl font-semibold mb-1 bold colorwhite">
             {{ getCongratulation() }}
           </p>
-          <p class="text-6xl bold">Next level in {{ intermission }}</p>
+          <p class="text-6xl bold colorwhite">
+            Next level in {{ intermission }}
+          </p>
         </div>
       </div>
     </div>
     <div class="w-100 text-center">
       <button
         class="btn btn-primary mt-3 playAgain"
-        @click="forceRerender($event)"
         v-if="level == 8"
+        @click="forceRerender($event)"
       >
-        Play Again
+        play again
       </button>
     </div>
     <div
@@ -120,12 +122,16 @@ export default {
     onKeyDown(e) {
       if (this.$refs.maze && !this.intermission && !this.menuOpen)
         this.$refs.maze.onKeyDown(e);
-      if (e.key === "ArrowUp" || e.key === "ArrowDown") {
-        e.stopPropagation();
+      if ([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
         e.preventDefault();
-        console.log(e.key);
-        return false;
       }
+
+      // if (e.key === "ArrowUp" || e.key === "ArrowDown") {
+      //   e.stopPropagation();
+      //   e.preventDefault();
+      //   console.log(e.key);
+      //   return false;
+      // }
     },
     win() {
       this.intermission = 2;
@@ -174,9 +180,17 @@ export default {
       }
       this.offline = true;
     },
+    preventscroll(e) {
+      if (e.key === "ArrowUp" || e.key === "ArrowDown") {
+        e.stopPropagation();
+        e.preventDefault();
+        console.log(e.key);
+        return false;
+      }
+    },
+
     forceRerender: function(e) {
       if (this.level == 8) {
-        // this.newMaze()
         this.error = null;
         this.maze = null;
         this.level = 1;
@@ -184,6 +198,7 @@ export default {
         this.ws = null;
         this.offline = true;
         this.menuOpen = false;
+        console.log("forcerernder");
         if (e.key === "ArrowUp" || e.key === "ArrowDown") {
           e.stopPropagation();
           e.preventDefault();
@@ -195,6 +210,7 @@ export default {
   },
   created() {
     this.newMaze();
+
     let levels = JSON.parse(localStorage.getItem("CardsLevels"));
     levels[5].open = true;
     localStorage.setItem("CardsLevels", JSON.stringify(levels));
@@ -259,7 +275,7 @@ export default {
 }
 .winMessage {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 45%;
 }
 .bold {
@@ -277,8 +293,8 @@ export default {
   z-index: 999;
 }
 .playAgain {
-  top: 73%;
-  left: 45%;
+  // top: 47%;
+  // left: 40%;
   position: absolute;
   font-weight: bold;
   font-size: 24px;
@@ -290,5 +306,8 @@ export default {
   top: 22%;
   left: 43px;
   cursor: pointer;
+}
+.colorwhite {
+  color: white;
 }
 </style>

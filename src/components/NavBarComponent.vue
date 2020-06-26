@@ -66,7 +66,7 @@
             <li class="dropdown singleDrop color-4">
               <a href="/about" class="dropdown-toggle">
                 <i class="fa fa-users bg-color-4" aria-hidden="true"></i>
-                <span>About US</span>
+                <span>About</span>
               </a>
             </li>
             <li class="dropdown singleDrop color-5">

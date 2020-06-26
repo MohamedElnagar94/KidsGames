@@ -13,7 +13,7 @@
           </h2>
         </div>
 
-        <div class="row">
+        <div class="row text-left">
           <div class="col-sm-4 col-xs-12">
             <div class="media featuresContent">
               <span class="media-left bg-color-1">
@@ -23,10 +23,11 @@
                 ></i>
               </span>
               <div class="media-body">
-                <h3 class="media-heading color-1">Experience Teachers</h3>
+                <h3 class="media-heading color-1">Teach Kids</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt.
+                  kids learn numbers by sound and simple number of fruits , fun
+                  and intuitive numbers game for your baby or toddler! By drag
+                  drop the right number in right place
                 </p>
               </div>
             </div>
@@ -34,13 +35,14 @@
           <div class="col-sm-4 col-xs-12">
             <div class="media featuresContent">
               <span class="media-left bg-color-2">
-                <i class="fa fa-leaf bg-color-2" aria-hidden="true"></i>
+                <i class="fa fa-check-square bg-color-2" aria-hidden="true"></i>
               </span>
               <div class="media-body">
-                <h3 class="media-heading color-2">Physical Activity</h3>
+                <h3 class="media-heading color-2">Mental Skills</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt.
+                  mental games Improves visual attention, visual scanning, and
+                  comparison skills.These games is a great way to keep your mind
+                  active!
                 </p>
               </div>
             </div>
@@ -48,55 +50,17 @@
           <div class="col-sm-4 col-xs-12">
             <div class="media featuresContent">
               <span class="media-left bg-color-3">
-                <i class="fa fa-car bg-color-3" aria-hidden="true"></i>
+                <i
+                  class="fa fa-sort-numeric-asc bg-color-3"
+                  aria-hidden="true"
+                ></i>
               </span>
               <div class="media-body">
-                <h3 class="media-heading color-3">Physical Activity</h3>
+                <h3 class="media-heading color-3">Teach Algorithm</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 col-xs-12">
-            <div class="media featuresContent">
-              <span class="media-left bg-color-4">
-                <i class="fa fa-cutlery bg-color-4" aria-hidden="true"></i>
-              </span>
-              <div class="media-body">
-                <h3 class="media-heading color-4">Delicious Food</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 col-xs-12">
-            <div class="media featuresContent">
-              <span class="media-left bg-color-5">
-                <i class="fa fa-heart bg-color-5" aria-hidden="true"></i>
-              </span>
-              <div class="media-body">
-                <h3 class="media-heading color-5">Love &amp; Care</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 col-xs-12">
-            <div class="media featuresContent">
-              <span class="media-left bg-color-6">
-                <i class="fa fa-shield bg-color-6" aria-hidden="true"></i>
-              </span>
-              <div class="media-body">
-                <h3 class="media-heading color-6">Meny Sports</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt.
+                  this part contain serveral games to illustrate how to sort
+                  numbers using algorithm (Bubble Sort - Insertion Sort - Merge
+                  Sort - Binary Search)
                 </p>
               </div>
             </div>
@@ -107,577 +71,15 @@
 
     <!-- PROMOTION SECTION-->
     <section
-      class="promotionWrapper"
-      style="background-image: url(img/home/promotion-1.jpg);"
+      class="promotionWrapper colorSection full-width clearfix bg-color-4 servicesSection"
     >
       <div class="container">
         <div class="promotionInfo">
           <h2>Need More Information?</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-            eiusmod
-          </p>
+
           <a href="/contactus" class="btn btn-primary"
             ><i class="fa fa-phone" aria-hidden="true"></i>Contact</a
           >
-        </div>
-      </div>
-    </section>
-
-    <!-- WHITE SECTION -->
-    <section
-      class="whiteSection full-width clearfix coursesSection"
-      id="ourCourses"
-    >
-      <div class="container">
-        <div class="sectionTitle text-center">
-          <h2>
-            <span class="shape shape-left bg-color-4"></span>
-            <span>Our Courses</span>
-            <span class="shape shape-right bg-color-4"></span>
-          </h2>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-3 col-xs-12 block">
-            <div class="thumbnail thumbnailContent">
-              <a href="course-single-left-sidebar.html"
-                ><img
-                  src="img/home/courses/course-1.jpg"
-                  alt="image"
-                  class="img-responsive"
-              /></a>
-              <div class="sticker bg-color-1">$50</div>
-              <div class="caption border-color-1">
-                <h3>
-                  <a href="course-single-left-sidebar.html" class="color-1"
-                    >Morbi scelerisque nibh.</a
-                  >
-                </h3>
-                <ul class="list-unstyled">
-                  <li>
-                    <i class="fa fa-calendar-o" aria-hidden="true"></i>Age 2 to
-                    4 Years
-                  </li>
-                  <li>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i
-                    >9.00AM-11.00AM
-                  </li>
-                </ul>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                </p>
-                <ul class="list-inline btn-yellow">
-                  <li>
-                    <a href="cart-page.html" class="btn btn-primary "
-                      ><i class="fa fa-shopping-basket " aria-hidden="true"></i
-                      >Add to Cart</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="course-single-left-sidebar.html"
-                      class="btn btn-link"
-                      ><i
-                        class="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      ></i>
-                      More</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-xs-12 block">
-            <div class="thumbnail thumbnailContent">
-              <a href="course-single-left-sidebar.html"
-                ><img
-                  src="img/home/courses/course-2.jpg"
-                  alt="image"
-                  class="img-responsive"
-              /></a>
-              <div class="sticker bg-color-2">$50</div>
-              <div class="caption border-color-2">
-                <h3>
-                  <a href="course-single-left-sidebar.html" class="color-2"
-                    >Phasellus convallis eros.</a
-                  >
-                </h3>
-                <ul class="list-unstyled">
-                  <li>
-                    <i class="fa fa-calendar-o" aria-hidden="true"></i>Age 2 to
-                    4 Years
-                  </li>
-                  <li>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i
-                    >9.00AM-11.00AM
-                  </li>
-                </ul>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                </p>
-                <ul class="list-inline btn-green">
-                  <li>
-                    <a href="cart-page.html" class="btn btn-primary "
-                      ><i class="fa fa-shopping-basket " aria-hidden="true"></i
-                      >Add to Cart</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="course-single-left-sidebar.html"
-                      class="btn btn-link"
-                      ><i
-                        class="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      ></i>
-                      More</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-xs-12 block">
-            <div class="thumbnail thumbnailContent">
-              <a href="course-single-left-sidebar.html"
-                ><img
-                  src="img/home/courses/course-3.jpg"
-                  alt="image"
-                  class="img-responsive"
-              /></a>
-              <div class="sticker bg-color-3">$50</div>
-              <div class="caption border-color-3">
-                <h3>
-                  <a href="course-single-left-sidebar.html" class="color-3"
-                    >Suspendisse a libero da.</a
-                  >
-                </h3>
-                <ul class="list-unstyled">
-                  <li>
-                    <i class="fa fa-calendar-o" aria-hidden="true"></i>Age 2 to
-                    4 Years
-                  </li>
-                  <li>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i
-                    >9.00AM-11.00AM
-                  </li>
-                </ul>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                </p>
-                <ul class="list-inline btn-red">
-                  <li>
-                    <a href="cart-page.html" class="btn btn-primary "
-                      ><i class="fa fa-shopping-basket " aria-hidden="true"></i
-                      >Add to Cart</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="course-single-left-sidebar.html"
-                      class="btn btn-link"
-                      ><i
-                        class="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      ></i>
-                      More</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-xs-12 block">
-            <div class="thumbnail thumbnailContent">
-              <a href="course-single-left-sidebar.html"
-                ><img
-                  src="img/home/courses/course-4.jpg"
-                  alt="image"
-                  class="img-responsive"
-              /></a>
-              <div class="sticker bg-color-4">$50</div>
-              <div class="caption border-color-4">
-                <h3>
-                  <a href="course-single-left-sidebar.html" class="color-4"
-                    >Aenean cursus urna nec.</a
-                  >
-                </h3>
-                <ul class="list-unstyled">
-                  <li>
-                    <i class="fa fa-calendar-o" aria-hidden="true"></i>Age 2 to
-                    4 Years
-                  </li>
-                  <li>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i
-                    >9.00AM-11.00AM
-                  </li>
-                </ul>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                </p>
-                <ul class="list-inline btn-sky">
-                  <li>
-                    <a href="cart-page.html" class="btn btn-primary "
-                      ><i class="fa fa-shopping-basket " aria-hidden="true"></i
-                      >Add to Cart</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="course-single-left-sidebar.html"
-                      class="btn btn-link"
-                      ><i
-                        class="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      ></i>
-                      More</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- COLOR SECTION -->
-    <section
-      class="colorSection full-width clearfix bg-color-5 teamSection"
-      id="ourTeam"
-    >
-      <div class="container">
-        <div class="sectionTitle text-center alt">
-          <h2>
-            <span class="shape shape-left bg-color-3"></span>
-            <span>Meet Our Teachers</span>
-            <span class="shape shape-right bg-color-3"></span>
-          </h2>
-        </div>
-
-        <div class="row">
-          <div class="col-xs-12">
-            <div class="owl-carousel teamSlider">
-              <div class="slide">
-                <div class="teamContent">
-                  <div class="teamImage">
-                    <img
-                      src="img/home/team/team-1.jpg"
-                      alt="img"
-                      class="img-circle"
-                    />
-                    <div class="maskingContent">
-                      <ul class="list-inline">
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-facebook" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-twitter" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-google-plus" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="teamInfo">
-                    <h3><a href="teachers-details.html">Amanda Smith</a></h3>
-                    <p>English Teacher</p>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="teamContent">
-                  <div class="teamImage">
-                    <img
-                      src="img/home/team/team-2.jpg"
-                      alt="img"
-                      class="img-circle"
-                    />
-                    <div class="maskingContent">
-                      <ul class="list-inline">
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-facebook" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-twitter" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-google-plus" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="teamInfo">
-                    <h3><a href="teachers-details.html">Amanda Stone</a></h3>
-                    <p>English Teacher</p>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="teamContent">
-                  <div class="teamImage">
-                    <img
-                      src="img/home/team/team-3.jpg"
-                      alt="img"
-                      class="img-circle"
-                    />
-                    <div class="maskingContent">
-                      <ul class="list-inline">
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-facebook" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-twitter" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-google-plus" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="teamInfo">
-                    <h3><a href="teachers-details.html">Amanda Stone</a></h3>
-                    <p>English Teacher</p>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="teamContent">
-                  <div class="teamImage">
-                    <img
-                      src="img/home/team/team-4.jpg"
-                      alt="img"
-                      class="img-circle"
-                    />
-                    <div class="maskingContent">
-                      <ul class="list-inline">
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-facebook" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-twitter" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-google-plus" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="teamInfo">
-                    <h3><a href="teachers-details.html">Amanda Stone</a></h3>
-                    <p>English Teacher</p>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="teamContent">
-                  <div class="teamImage">
-                    <img
-                      src="img/home/team/team-1.jpg"
-                      alt="img"
-                      class="img-circle"
-                    />
-                    <div class="maskingContent">
-                      <ul class="list-inline">
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-facebook" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-twitter" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-google-plus" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="teamInfo">
-                    <h3><a href="teachers-details.html">Amanda Stone</a></h3>
-                    <p>English Teacher</p>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="teamContent">
-                  <div class="teamImage">
-                    <img
-                      src="img/home/team/team-2.jpg"
-                      alt="img"
-                      class="img-circle"
-                    />
-                    <div class="maskingContent">
-                      <ul class="list-inline">
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-facebook" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-twitter" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-google-plus" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="teamInfo">
-                    <h3><a href="teachers-details.html">Amanda Stone</a></h3>
-                    <p>English Teacher</p>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="teamContent">
-                  <div class="teamImage">
-                    <img
-                      src="img/home/team/team-3.jpg"
-                      alt="img"
-                      class="img-circle"
-                    />
-                    <div class="maskingContent">
-                      <ul class="list-inline">
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-facebook" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-twitter" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-google-plus" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="teamInfo">
-                    <h3><a href="teachers-details.html">Amanda Stone</a></h3>
-                    <p>English Teacher</p>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="teamContent">
-                  <div class="teamImage">
-                    <img
-                      src="img/home/team/team-4.jpg"
-                      alt="img"
-                      class="img-circle"
-                    />
-                    <div class="maskingContent">
-                      <ul class="list-inline">
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-facebook" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-twitter" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-google-plus" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="teamInfo">
-                    <h3><a href="teachers-details.html">Amanda Stone</a></h3>
-                    <p>English Teacher</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -701,9 +103,9 @@
             <div class="filter-container isotopeFilters">
               <ul class="list-inline filter">
                 <li class="active"><a href="#" data-filter="*">View All</a></li>
-                <li><a href="#" data-filter=".charity">Charity</a></li>
-                <li><a href="#" data-filter=".nature">nature</a></li>
-                <li><a href="#" data-filter=".children">children</a></li>
+                <li><a href="#" data-filter=".charity">Numbers Game</a></li>
+                <li><a href="#" data-filter=".nature">Memory Game</a></li>
+                <li><a href="#" data-filter=".children">Algorithm Game</a></li>
               </ul>
             </div>
           </div>
@@ -713,7 +115,7 @@
             <article class="">
               <figure>
                 <img
-                  src="img/home/home_gallery/gallery_sm_1.jpg"
+                  src="img/home/home_gallery/16sm.png"
                   alt="image"
                   class="img-rounded"
                 />
@@ -724,7 +126,7 @@
                   <a
                     class="fancybox-pop"
                     rel="portfolio-1"
-                    href="img/home/home_gallery/gallery_lg_1.jpg"
+                    href="img/home/home_gallery/16lg.png"
                   >
                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                   </a>
@@ -737,7 +139,7 @@
             <article class="">
               <figure>
                 <img
-                  src="img/home/home_gallery/gallery_sm_2.jpg"
+                  src="img/home/home_gallery/5sm.png"
                   alt="image"
                   class="img-rounded"
                 />
@@ -748,7 +150,7 @@
                   <a
                     class="fancybox-pop"
                     rel="portfolio-1"
-                    href="img/home/home_gallery/gallery_lg_2.jpg"
+                    href="img/home/home_gallery/5lg.png"
                   >
                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                   </a>
@@ -761,7 +163,7 @@
             <article class="">
               <figure>
                 <img
-                  src="img/home/home_gallery/gallery_sm_3.jpg"
+                  src="img/home/home_gallery/6sm.png"
                   alt="image"
                   class="img-rounded"
                 />
@@ -772,7 +174,30 @@
                   <a
                     class="fancybox-pop"
                     rel="portfolio-1"
-                    href="img/home/home_gallery/gallery_lg_3.jpg"
+                    href="img/home/home_gallery/6lg.png"
+                  >
+                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </figure>
+            </article>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector charity">
+            <article class="">
+              <figure>
+                <img
+                  src="img/home/home_gallery/12sm.png"
+                  alt="image"
+                  class="img-rounded"
+                />
+                <div class="overlay-background">
+                  <div class="inner"></div>
+                </div>
+                <div class="overlay">
+                  <a
+                    class="fancybox-pop"
+                    rel="portfolio-1"
+                    href="img/home/home_gallery/12lg.png"
                   >
                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                   </a>
@@ -785,7 +210,7 @@
             <article class="">
               <figure>
                 <img
-                  src="img/home/home_gallery/gallery_sm_4.jpg"
+                  src="img/home/home_gallery/15sm.png"
                   alt="image"
                   class="img-rounded"
                 />
@@ -796,7 +221,30 @@
                   <a
                     class="fancybox-pop"
                     rel="portfolio-1"
-                    href="img/home/home_gallery/gallery_lg_4.jpg"
+                    href="img/home/home_gallery/15lg.png"
+                  >
+                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </figure>
+            </article>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector charity">
+            <article class="">
+              <figure>
+                <img
+                  src="img/home/home_gallery/14sm.png"
+                  alt="image"
+                  class="img-rounded"
+                />
+                <div class="overlay-background">
+                  <div class="inner"></div>
+                </div>
+                <div class="overlay">
+                  <a
+                    class="fancybox-pop"
+                    rel="portfolio-1"
+                    href="img/home/home_gallery/14lg.png"
                   >
                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                   </a>
@@ -805,11 +253,34 @@
             </article>
           </div>
 
+          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector charity">
+            <article class="">
+              <figure>
+                <img
+                  src="img/home/home_gallery/11sm.png"
+                  alt="image"
+                  class="img-rounded"
+                />
+                <div class="overlay-background">
+                  <div class="inner"></div>
+                </div>
+                <div class="overlay">
+                  <a
+                    class="fancybox-pop"
+                    rel="portfolio-1"
+                    href="img/home/home_gallery/11lg.png"
+                  >
+                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </figure>
+            </article>
+          </div>
           <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector nature">
             <article class="">
               <figure>
                 <img
-                  src="img/home/home_gallery/gallery_sm_5.jpg"
+                  src="img/home/home_gallery/7sm.png"
                   alt="image"
                   class="img-rounded"
                 />
@@ -820,7 +291,76 @@
                   <a
                     class="fancybox-pop"
                     rel="portfolio-1"
-                    href="img/home/home_gallery/gallery_lg_5.jpg"
+                    href="img/home/home_gallery/7lg.png"
+                  >
+                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </figure>
+            </article>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector charity">
+            <article class="">
+              <figure>
+                <img
+                  src="img/home/home_gallery/10sm.png"
+                  alt="image"
+                  class="img-rounded"
+                />
+                <div class="overlay-background">
+                  <div class="inner"></div>
+                </div>
+                <div class="overlay">
+                  <a
+                    class="fancybox-pop"
+                    rel="portfolio-1"
+                    href="img/home/home_gallery/10lg.png"
+                  >
+                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </figure>
+            </article>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector charity">
+            <article class="">
+              <figure>
+                <img
+                  src="img/home/home_gallery/16sm.png"
+                  alt="image"
+                  class="img-rounded"
+                />
+                <div class="overlay-background">
+                  <div class="inner"></div>
+                </div>
+                <div class="overlay">
+                  <a
+                    class="fancybox-pop"
+                    rel="portfolio-1"
+                    href="img/home/home_gallery/13lg.png"
+                  >
+                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </figure>
+            </article>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector nature">
+            <article class="">
+              <figure>
+                <img
+                  src="img/home/home_gallery/8sm.png"
+                  alt="image"
+                  class="img-rounded"
+                />
+                <div class="overlay-background">
+                  <div class="inner"></div>
+                </div>
+                <div class="overlay">
+                  <a
+                    class="fancybox-pop"
+                    rel="portfolio-1"
+                    href="img/home/home_gallery/8lg.png"
                   >
                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                   </a>
@@ -833,7 +373,7 @@
             <article class="">
               <figure>
                 <img
-                  src="img/home/home_gallery/gallery_sm_6.jpg"
+                  src="img/home/home_gallery/1sm.png"
                   alt="image"
                   class="img-rounded"
                 />
@@ -844,7 +384,30 @@
                   <a
                     class="fancybox-pop"
                     rel="portfolio-1"
-                    href="img/home/home_gallery/gallery_lg_6.jpg"
+                    href="img/home/home_gallery/1lg.png"
+                  >
+                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </figure>
+            </article>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector nature">
+            <article class="">
+              <figure>
+                <img
+                  src="img/home/home_gallery/9sm.png"
+                  alt="image"
+                  class="img-rounded"
+                />
+                <div class="overlay-background">
+                  <div class="inner"></div>
+                </div>
+                <div class="overlay">
+                  <a
+                    class="fancybox-pop"
+                    rel="portfolio-1"
+                    href="img/home/home_gallery/9lg.png"
                   >
                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                   </a>
@@ -857,7 +420,7 @@
             <article class="">
               <figure>
                 <img
-                  src="img/home/home_gallery/gallery_sm_7.jpg"
+                  src="img/home/home_gallery/4sm.png"
                   alt="image"
                   class="img-rounded"
                 />
@@ -868,7 +431,30 @@
                   <a
                     class="fancybox-pop"
                     rel="portfolio-1"
-                    href="img/home/home_gallery/gallery_lg_7.jpg"
+                    href="img/home/home_gallery/4lg.png"
+                  >
+                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </figure>
+            </article>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector children">
+            <article class="">
+              <figure>
+                <img
+                  src="img/home/home_gallery/2sm.png"
+                  alt="image"
+                  class="img-rounded"
+                />
+                <div class="overlay-background">
+                  <div class="inner"></div>
+                </div>
+                <div class="overlay">
+                  <a
+                    class="fancybox-pop"
+                    rel="portfolio-1"
+                    href="img/home/home_gallery/2lg.png"
                   >
                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                   </a>
@@ -881,7 +467,7 @@
             <article class="">
               <figure>
                 <img
-                  src="img/home/home_gallery/gallery_sm_8.jpg"
+                  src="img/home/home_gallery/3sm.png"
                   alt="image"
                   class="img-rounded"
                 />
@@ -892,57 +478,13 @@
                   <a
                     class="fancybox-pop"
                     rel="portfolio-1"
-                    href="img/home/home_gallery/gallery_lg_8.jpg"
+                    href="img/home/home_gallery/3lg.png"
                   >
                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                   </a>
                 </div>
               </figure>
             </article>
-          </div>
-        </div>
-
-        <div class="btnArea">
-          <a href="photo-gallery.html" class="btn btn-primary">View more</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- COUNT UP SECTION-->
-    <section class="countUpSection">
-      <div class="container">
-        <div class="sectionTitleSmall">
-          <h2>Some Fun Facts</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-            eiusmod
-          </p>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-3 col-xs-12">
-            <div class="text-center">
-              <div class="counter">179</div>
-              <div class="counterInfo bg-color-1">Events Held</div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-xs-12">
-            <div class="text-center">
-              <div class="counter">579</div>
-              <div class="counterInfo bg-color-2">Happy Funs</div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-xs-12">
-            <div class="text-center">
-              <div class="counter">279</div>
-              <div class="counterInfo bg-color-3">happy clients</div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-xs-12">
-            <div class="text-center">
-              <div class="counter">479</div>
-              <div class="counterInfo bg-color-4">hours support</div>
-            </div>
           </div>
         </div>
       </div>
@@ -957,7 +499,7 @@
         <div class="sectionTitle text-center">
           <h2>
             <span class="shape shape-left bg-color-4"></span>
-            <span>Latest News</span>
+            <span>Latest Games</span>
             <span class="shape shape-right bg-color-4"></span>
           </h2>
         </div>
@@ -965,146 +507,70 @@
         <div class="row">
           <div class="col-sm-4 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
-              <a href="single-blog-left-sidebar.html"
+              <a href="/sortsLevels"
                 ><img
-                  src="img/home/news/news-1.jpg"
+                  src="img/home/news/photo14.png"
                   alt="image"
-                  class="img-responsive"
+                  class="img-responsive newgame"
               /></a>
-              <div class="sticker-round bg-color-1">10 <br />July</div>
+              <div class="sticker-round bg-color-1">17 <br />June</div>
               <div class="caption border-color-1">
                 <h3>
-                  <a href="single-blog-left-sidebar.html" class="color-1"
-                    >The standard chunk of Lorem.</a
-                  >
+                  <a href="/sortsLevels" class="color-1">Bubble Sort Game</a>
                 </h3>
-                <ul class="list-inline">
-                  <li>
-                    <a href="single-blog-left-sidebar.html"
-                      ><i class="fa fa-user" aria-hidden="true"></i>Jone Doe</a
-                    >
-                  </li>
-                  <li>
-                    <a href="single-blog-left-sidebar.html"
-                      ><i class="fa fa-comments-o" aria-hidden="true"></i>4
-                      Comments</a
-                    >
-                  </li>
-                </ul>
+
                 <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classi cal Latin literature.
+                  this game illustrates how the bubble sort algorithm works by
+                  repeatedly swapping the adjacent elements if they are in wrong
+                  order.
                 </p>
-                <ul class="list-inline btn-yellow">
-                  <li>
-                    <a href="single-blog-left-sidebar.html" class="btn btn-link"
-                      ><i
-                        class="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      ></i>
-                      Read More</a
-                    >
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
           <div class="col-sm-4 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
-              <a href="single-blog-left-sidebar.html"
+              <a href="/cardsLevels"
                 ><img
-                  src="img/home/news/news-2.jpg"
+                  src="img/home/news/photo12.png"
                   alt="image"
-                  class="img-responsive"
+                  class="img-responsive newgame"
               /></a>
-              <div class="sticker-round bg-color-2">10 <br />July</div>
+              <div class="sticker-round bg-color-2">22 <br />June</div>
               <div class="caption border-color-2">
                 <h3>
-                  <a href="single-blog-left-sidebar.html" class="color-2"
-                    >Vestibulum congue massa vitae.</a
-                  >
+                  <a href="/cardsLevels" class="color-2">Maze Game</a>
                 </h3>
-                <ul class="list-inline">
-                  <li>
-                    <a href="single-blog-left-sidebar.html"
-                      ><i class="fa fa-user" aria-hidden="true"></i>Jone Doe</a
-                    >
-                  </li>
-                  <li>
-                    <a href="single-blog-left-sidebar.html"
-                      ><i class="fa fa-comments-o" aria-hidden="true"></i>4
-                      Comments</a
-                    >
-                  </li>
-                </ul>
+
                 <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classi cal Latin literature.
+                  The maze game is a game in which the purpose of the game is
+                  for the player to make their way from the start point to the
+                  end point.
                 </p>
-                <ul class="list-inline btn-green">
-                  <li>
-                    <a href="single-blog-left-sidebar.html" class="btn btn-link"
-                      ><i
-                        class="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      ></i>
-                      Read More</a
-                    >
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
           <div class="col-sm-4 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
-              <a href="single-blog-left-sidebar.html"
+              <a href="/numbersLevels"
                 ><img
-                  src="img/home/news/news-3.jpg"
+                  src="img/home/news/photo6.png"
                   alt="image"
-                  class="img-responsive"
+                  class="img-responsive newgame"
               /></a>
-              <div class="sticker-round bg-color-3">10 <br />July</div>
+              <div class="sticker-round bg-color-3">16 <br />June</div>
               <div class="caption border-color-3">
                 <h3>
-                  <a href="single-blog-left-sidebar.html" class="color-3"
-                    >Curabitur ac nulla sodales risus.</a
-                  >
+                  <a href="/numbersLevels" class="color-3">Compare Game</a>
                 </h3>
-                <ul class="list-inline">
-                  <li>
-                    <a href="single-blog-left-sidebar.html"
-                      ><i class="fa fa-user" aria-hidden="true"></i>Jone Doe</a
-                    >
-                  </li>
-                  <li>
-                    <a href="single-blog-left-sidebar.html"
-                      ><i class="fa fa-comments-o" aria-hidden="true"></i>4
-                      Comments</a
-                    >
-                  </li>
-                </ul>
+
                 <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classi cal Latin literature.
+                  This game helps kids develop and strengthen with choose either
+                  a greater than, less than or equal to symbol to make the
+                  expression correct
                 </p>
-                <ul class="list-inline btn-red">
-                  <li>
-                    <a href="single-blog-left-sidebar.html" class="btn btn-link"
-                      ><i
-                        class="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      ></i>
-                      Read More</a
-                    >
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
-        </div>
-
-        <div class="btnArea">
-          <a href="blog-grid.html" class="btn btn-primary">View more</a>
         </div>
       </div>
     </section>
@@ -1116,22 +582,19 @@
           <div class="col-sm-6 col-xs-12">
             <div class="homeContactContent">
               <h2>Our Address</h2>
-              <p>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
-              </p>
-              <address>
+
+              <address class="mt-5">
                 <p>
                   <i class="fa fa-map-marker bg-color-1" aria-hidden="true"></i
-                  >9/4/C Ring Road,Garden Street Dhaka,Bangladesh-1200
+                  >Farouq Street Zagazig,Egypt
                 </p>
                 <p>
                   <i class="fa fa-envelope bg-color-2" aria-hidden="true"></i
-                  ><a href="mailto:hello@example.com">hello@example.com</a>
+                  ><a href="mailto:hello@example.com">sara@gmail.com</a>
                 </p>
                 <p>
-                  <i class="fa fa-phone bg-color-4" aria-hidden="true"></i>3333
-                  222 1111
+                  <i class="fa fa-phone bg-color-4" aria-hidden="true"></i>010
+                  100 23121
                 </p>
               </address>
             </div>
@@ -1200,3 +663,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.newgame {
+  height: 260px;
+}
+</style>

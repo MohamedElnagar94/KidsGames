@@ -144,7 +144,6 @@ export default {
         case "ArrowLeft":
           if (!this.isWall(this.player.x - 1, this.player.y)) this.player.x--;
           this.isBoyleft = true;
-
           break;
       }
       if (
