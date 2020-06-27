@@ -19,15 +19,15 @@
             <div class="teachersProfession bg-color-1">Kid Name</div>
             <div class="professionDetails">{{ $root.auth.kid_name }}</div>
             <div class="teachersProfession bg-color-6">Class Number</div>
-            <div class="professionDetails">{{$root.auth.class_number}}</div>
+            <div class="professionDetails">{{ $root.auth.class_number }}</div>
             <div class="teachersProfession bg-color-3">Parent Email</div>
-            <div class="professionDetails">{{$root.auth.email}}</div>
+            <div class="professionDetails">{{ $root.auth.email }}</div>
             <div class="teachersProfession bg-color-4">Nursery Name</div>
             <div class="professionDetails">
-              {{$root.auth.nurseryName}}
+              {{ $root.auth.nurseryName }}
             </div>
             <div class="teachersProfession bg-color-5">Nursery Email</div>
-            <div class="professionDetails">{{$root.auth.nurseryEmail}}</div>
+            <div class="professionDetails">{{ $root.auth.nurseryEmail }}</div>
             <div class="teachersProfession bg-color-2">Degree</div>
             <div class="professionDetails" style="display: contents;">
               <div class="small">
@@ -64,7 +64,7 @@ export default {
       kidDegree2: [],
       gameName2: [],
       dateDegree: [],
-      dateDegree2:[],
+      dateDegree2: []
       // previewImage:null,
       // image : null,
       // imageUrl: null
@@ -83,7 +83,7 @@ export default {
     //     this.imageUrl = URL.createObjectURL(image)
     //     let data = new FormData();
     //     data.append('name', image, image.name);
-    //     data.append('file', image); 
+    //     data.append('file', image);
     // },
     fillData: function() {
       this.datacollection = {
@@ -172,8 +172,8 @@ export default {
         this.createDate2();
         this.fillData();
       })
-      .catch(() => {}).finally(()=>{
-      });
+      .catch(() => {})
+      .finally(() => {});
   },
   components: {
     LineChart

@@ -72,8 +72,7 @@ export default {
           title: "Puzzle Level 3",
           textColor: "color-1",
           border: "border-color-1",
-          description:
-            ""
+          description: ""
         },
         {
           level: 2,
@@ -83,8 +82,7 @@ export default {
           title: "Puzzle Level 4",
           textColor: "color-2",
           border: "border-color-2",
-          description:
-            ""
+          description: ""
         }
       ];
       localStorage.setItem("puzzle2Collections", JSON.stringify(allData));

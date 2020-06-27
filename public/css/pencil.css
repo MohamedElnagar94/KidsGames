@@ -7,35 +7,35 @@
 }
   .containers{
 	width:90%;
-	background-color: rgb(120,173,191);
+	background-color: rgb(120,173,191); 
 	margin:0 auto;
-	border-radius: .5em;
+	border-radius: .5em;	
   }
   .number{
-	width:6.5em;
+	width:100%;
 	height:4.2em;
 	background-color: #eee;/* old >>> #ccc ... edit 2 >>> #eee */
 
 	font-size: large;
 	border-radius: .2em;
-	box-shadow: .6em .6em .5em #888;
-
+	box-shadow: .6em .6em -.5em #888;
+	
   }
   @font-face{
 	font-family:"MisterVampire";
-	src:url("../fonts/vendor/font-awesome/MISTV___.TTF");
-
+	src:url("./fonts/MISTV___.TTF");
+	
   }
   @font-face{
 	font-family:"Burnstown Dam";
-	/*src:url("../fonts/burnstown dam.ttf");*/
-
+	src:url("./fonts/burnstown dam.ttf");
+	
   }
   .number span,.number h6{
 	display: inline-block;
 	margin:10% 35%;
 	color: rgb(68, 141, 165);
-	font:3em  'Showcard Gothic' ,'Comic Sans MS'  ;
+	font:3em  'Showcard Gothic' ,'Comic Sans MS'  ; 
 	font-weight: bold
   }
   .number h6{
@@ -75,24 +75,24 @@
   }
 
   .matchedNumber{
-	width:6.5em;
+	width:100%;
 	height:4.8em;
 	background-color: #333;
 	font-size: large;
 	border-radius: .2em;
-
+	
   }
   .up{
 	border-right:.2em solid white;
 	border-bottom:.2em solid white;
-	-webkit-box-shadow:inset .3em .3em 0em .3em #555;
-	 -moz-box-shadow:inset .3em .3em 0em .3em #555;
+	-webkit-box-shadow:inset .3em .3em 0em .3em #555; 
+	 -moz-box-shadow:inset .3em .3em 0em .3em #555; 
 	box-shadow:inset .3em .3em 0em .3em #555;
   }
   .down{
 	border-right:.2em solid white;
 	border-top:.2em solid white;
-	 -webkit-box-shadow:inset  .3em -.3em 0em .3em #555;
+	 -webkit-box-shadow:inset  .3em -.3em 0em .3em #555;  
 	-moz-box-shadow:inset  .3em -.3em 0em .3em #555;
 	box-shadow:inset .3em -.3em 0em .3em #555;
   }
@@ -134,7 +134,7 @@
 	margin-left: .08em;
 }
 .matchedNumber .pencil-top {
-
+	
     height: .3em;
     background-color: #ec8787;
     border-top-left-radius: .3em;
@@ -155,7 +155,7 @@
 	from {height:6.5em;}
 	to {height:0px ;}
   }
-
+ 
   .popup {
 	position: relative;
 	display: inline-block;
@@ -165,7 +165,7 @@
 	-ms-user-select: none;
 	user-select: none;
   }
-
+  
   /* The actual popup */
   .popup .popuptext {
 	visibility: hidden;
@@ -181,7 +181,7 @@
 	left: 50%;
 	margin-left: -80px;
   }
-
+  
   /* Popup arrow */
   .popup .popuptext::after {
 	content: "";
@@ -193,21 +193,22 @@
 	border-style: solid;
 	border-color: #555 transparent transparent transparent;
   }
-
+  
   /* Toggle this class - hide and show the popup */
   .popup .show {
 	visibility: visible;
 	-webkit-animation: fadeIn 1s;
 	animation: fadeIn 1s;
   }
-
+  
   /* Add animation (fade in the popup) */
   @-webkit-keyframes fadeIn {
-	from {opacity: 0;}
+	from {opacity: 0;} 
 	to {opacity: 1;}
   }
-
+  
   @keyframes fadeIn {
 	from {opacity: 0;}
 	to {opacity:1 ;}
   }
+ 

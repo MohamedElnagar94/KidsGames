@@ -9,11 +9,11 @@
   }
   .containers{
 	width:90%;
-	background-color: rgb(120,173,191);
+	background-color: rgb(120,173,191); 
 	margin:0 auto;
 	border:.6em solid #fff;
 	border-radius: .5em;
-
+	
   }
 #gameControlls{
 	width:100%;

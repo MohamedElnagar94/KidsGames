@@ -136,7 +136,7 @@ export default {
       this.localStorageArrayBallons = [];
     },
     clickedBallon: function(e) {
-      let balloonPop = "ballon";
+      // let balloonPop = "ballon";
       let success = "clap";
       let notSuccess = "tryAgain";
       this.localStorageArrayBallons.push({
@@ -149,17 +149,43 @@ export default {
         JSON.stringify(this.localStorageArrayBallons)
       );
       // console.log(localStorage.getItem("ballonsAnswers"));
+      if (e.target.innerText != this.answerNum) {
+        e.target.style.border = "3px solid red";
+        e.target.style.textDecoration = "line-through";
+        e.target.style.transform = "scale(.8,.8)";
+        setTimeout(
+          function() {
+            e.target.style.border = "none";
+            e.target.style.transform = "scale(1,1)";
+            e.target.style.textDecoration = "none";
+          }.bind(this),
+          1800
+        );
+      }
       if (e.target.innerText == this.answerNum) {
-        e.target.classList.addClass = "hideBalloon";
+        console.log("inner" + e.target.innerText);
+        console.log("answer" + this.answerNum);
+        e.target.style.border = "3px solid white";
+        e.target.style.transform = "scale(1.3,1.3)";
         this.score += 1;
-        // let audio1 = new Audio(balloonPop);
-        // audio1.play();
-        this.playSound(balloonPop);
+        this.playSound(success);
+        setTimeout(
+          function() {
+            e.target.style.border = "none";
+            e.target.style.transform = "scale(1,1)";
+          }.bind(this),
+          2000
+        );
       }
 
       if (this.count < 11) {
-        this.newArray = [];
-        this.ballonRandom();
+        setTimeout(
+          function() {
+            this.newArray = [];
+            this.ballonRandom();
+          }.bind(this),
+          2200
+        );
         this.count++;
       }
       if (this.count === 11) {
@@ -278,7 +304,7 @@ export default {
   color: white;
 }
 
-@keyframes balloons {
+/* @keyframes balloons {
   0%,
   100% {
     transform: translateY(0) rotate(-4deg);
@@ -286,7 +312,7 @@ export default {
   50% {
     transform: translateY(-25px) rotate(4deg);
   }
-}
+} */
 
 .balloon:before {
   content: "▲";

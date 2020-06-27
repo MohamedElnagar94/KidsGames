@@ -3,7 +3,8 @@
     <img :src="src" class="vloume" @click="play()" alt />
     <div class="row">
       <div
-        class="col-md-12 d-flex justify-content-center align-items-center p-4" style="font-size: 35px;"
+        class="col-md-12 d-flex justify-content-center align-items-center p-4"
+        style="font-size: 35px;"
       >
         <span style="margin-right: 15px;">Question</span>
         <img
