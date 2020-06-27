@@ -1,9 +1,9 @@
 <template>
-  <div id="test">
+  <div id="test" :key="reset" class="position-relative">
     <!-- <div class="col-md-12 d-flex justify-content-center align-items-center p-4" style="color:white">
            <h3>How to play : </h3><h5>drag number of pencils equal to the number shown on each box  </h5>
     </div>   -->
-    <div id="gameControlls" class="postion-relative">
+    <div id="gameControlls">
       <h1></h1>
       <h4>Score :</h4>
       <span id="scoreText"></span>
@@ -16,7 +16,8 @@
       <!--<button class="nextButton" id="nextLevel"  v-on:click="newGame" > New Game </button>-->
     </div>
 
-    <div
+    <div>
+      <div
       id="blockGame"
       style="
         width:100%;
@@ -26,7 +27,8 @@
         top:0;
         left:0px;
         z-index: -3;"
-    ></div>
+    ><button class="nextButton" id="nextLevel"  v-on:click="newGame" > New Game </button></div>
+    </div>
     <div class="row" v-on:mouseover="scoreCalculate">
       <div class="eachNumber col-2 ">
         <div class="number popup">
@@ -147,11 +149,16 @@ export default {
     return {
       timing: null,
       testSeconds: 0,
-      draggable: true
+      draggable: true,
+      reset:0,
+      showNewButton:0
     };
   },
   methods: {
-    newGame: function() {},
+    newGame: function() {
+      this.showNewButton = 0;
+      this.reset++;
+    },
     timeDisplay() {
       this.timing = setInterval(() => {
         document.getElementById("timerPencil").innerText = this.testSeconds;
@@ -171,7 +178,7 @@ export default {
         $("#nextLevel")[0].style.display = "inline-block";
         let popup = document.getElementById("myPopup");
         popup.classList.toggle("show");
-
+        this.showNewButton = 9
         this.testSeconds = 0;
         this.clearSetInterval();
       }
