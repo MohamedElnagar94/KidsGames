@@ -101,9 +101,9 @@ export default {
     let checkLevels = JSON.parse(localStorage.getItem("sortLevels"));
     if (checkLevels === null) {
       let allLevels = [
-        { level: 1, open: true, href: "/mergesort", sound: "level 1.mp3" },
-        { level: 2, open: false, href: "/bubblesort", sound: "level 2.mp3" },
-        { level: 3, open: false, href: "/insertionsort", sound: "level 3.mp3" },
+        { level: 1, open: true, href: "/bubblesort", sound: "level 1.mp3" },
+        { level: 2, open: false, href: "/insertionsort", sound: "level 2.mp3" },
+        { level: 3, open: false, href: "/mergesort", sound: "level 3.mp3" },
         {
           level: 4,
           open: false,

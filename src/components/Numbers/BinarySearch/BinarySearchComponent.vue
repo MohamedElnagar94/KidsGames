@@ -572,14 +572,26 @@ export default {
   created() {
     this.start();
     this.sign = "bg";
-    setTimeout(function() {
-      Swal.fire({
-        title: "Frist Step",
-        html: `<h5>Please Enter Number form 1 to 9</h5>`,
-        // icon: "error",
-        confirmButtonText: "Ok"
-      });
-    }, 1000);
+    Swal.fire({
+      title: "Binary Search",
+      width: 900,
+      html: `<video width="800" height="500" controls>
+              <source src="/video/video.mp4" type="video/mp4">
+            </video>`,
+      // icon: "error",
+      confirmButtonText: "Ok"
+    }).then(() => {
+      /* Read more about handling dismissals below */
+      setTimeout(function() {
+        Swal.fire({
+          title: "Frist Step",
+          html: `<h5>Please Enter Number form 1 to 9</h5>`,
+          // icon: "error",
+          confirmButtonText: "Ok"
+        });
+      }, 1000);
+    });
+    
   }
 };
 </script>

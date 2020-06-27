@@ -174,6 +174,7 @@
 
 <script>
 import $ from "jquery/dist/jquery.min";
+import Swal from "sweetalert2";
 export default {
   name: "BubleSortComponent",
   data() {
@@ -283,7 +284,7 @@ export default {
       $("#congrats").show();
       $("#fireworkElm")[0].play();
       let levels = JSON.parse(localStorage.getItem("sortLevels"));
-      levels[2].open = true;
+      levels[1].open = true;
       localStorage.setItem("sortLevels", JSON.stringify(levels));
     }
   },
@@ -304,6 +305,15 @@ export default {
       numberArraySteps: previousArray
     };
     this.stepsArrayObject.push(newObj);
+    Swal.fire({
+      title: "Bubble Sort",
+      width: 900,
+      html: `<video width="800" height="500" controls>
+              <source src="/video/video.mp4" type="video/mp4">
+            </video>`,
+      // icon: "error",
+      confirmButtonText: "Ok"
+    });
   }
 };
 </script>

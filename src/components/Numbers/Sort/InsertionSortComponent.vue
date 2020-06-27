@@ -153,6 +153,7 @@
 
 <script>
 // import $ from "jquery/dist/jquery.min";
+import Swal from "sweetalert2";
 export default {
   name: "InsertionSortComponent",
   data() {
@@ -202,7 +203,7 @@ export default {
           console.log("sorted");
           this.pivot = this.pivot - 1;
           let levels = JSON.parse(localStorage.getItem("sortLevels"));
-          levels[3].open = true;
+          levels[2].open = true;
           localStorage.setItem("sortLevels", JSON.stringify(levels));
         }
       }
@@ -237,6 +238,15 @@ export default {
 
   created() {
     this.numbers = this.generateArray();
+    Swal.fire({
+      title: "Insertion Sort",
+      width: 900,
+      html: `<video width="800" height="500" controls>
+              <source src="/video/video.mp4" type="video/mp4">
+            </video>`,
+      // icon: "error",
+      confirmButtonText: "Ok"
+    });
   }
 };
 </script>

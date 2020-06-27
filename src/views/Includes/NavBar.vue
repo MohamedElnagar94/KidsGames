@@ -12,11 +12,10 @@
             >
               <li>
                 <i class="fa fa-envelope bg-color-1" aria-hidden="true"></i>
-                <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+                <a href="mailto:sara@gmail.com">sara@gmail.com</a>
               </li>
               <li>
-                <i class="fa fa-phone bg-color-2" aria-hidden="true"></i> +1 234
-                567 8900
+                <i class="fa fa-phone bg-color-2" aria-hidden="true"></i> +201090123456
               </li>
               <li>
                 <i class="fa fa-clock-o bg-color-6" aria-hidden="true"></i>
